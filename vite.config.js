@@ -1,6 +1,5 @@
 import handlebars from 'vite-plugin-handlebars';
 import macrosPlugin from 'vite-plugin-babel-macros';
-import getFiles from './src/js/modules/getFiles';
 
 import { svgImageItems } from './src/data/auctions.json';
 import { svgImages } from './src/data/accordion.json';
@@ -21,8 +20,6 @@ const pageData = {
 		title: 'Home Page',
 		data: data,
 		isHome: true,
-		blocks: getFiles(partialDirectory, /block.*hbs$/),
-		uis: getFiles(partialDirectory, /ui.*hbs$/),
 	},
 	'/index.html': {
 		data: data

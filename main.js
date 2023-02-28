@@ -3,13 +3,12 @@ import './src/css/app.css'
 import 'fullpage.js/dist/fullpage.min.css'
 import 'aos/dist/aos.css';
 import fullPage from 'fullpage.js'
-import AOS from 'aos';
+import AOS from "aos";
 import logoBlack from './src/img/logo-black.svg';
 import logoWhite from './src/img/logo.svg';
 
 import './src/js/projects'
 
-import.meta.glob(['../images/**',]);
 
 let preloader = document.getElementById('preloader')
 window.onload = ()=> {
