@@ -1,0 +1,40 @@
+.icon {
+    @apply inline-block h-8 w-8 fill-current stroke-current stroke-0;
+    &-heart {
+        @apply fill-transparent;
+    }
+}
+
+@layer components {
+    .font-icon {
+        font-family: "Frontenda Icons" !important;
+    }
+}
+
+.font-icon-edit:before {
+    content: "\e900";
+}
+.font-icon-eye:before {
+    content: "\e902";
+}
+.font-icon-arrow:before {
+    content: "\e901";
+}
+.font-icon-close:before {
+    content: "\e903";
+}
+.font-icon-done:before {
+    content: "\e904";
+}
+.font-icon-plus:before {
+    content: "\e905";
+}
+.font-icon-reply:before {
+    content: "\e906";
+}
+.font-icon-loading:before {
+    content: "\e907";
+}
+.font-icon-download:before {
+    content: "\e908";
+}

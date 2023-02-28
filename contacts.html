@@ -1,0 +1,55 @@
+{{> header }}
+<section class="section bg-[url(./src/img/bg-contacts.png)] bg-no-repeat bg-top sm:bg-center bg-contain">
+	<div class="contacts-before relative sm:container lg:max-w-screen-lg px-3 py-10">
+		<div class="absolute -right-[56px] h-full z-0 w-px top-0 bg-neutral-700"></div>
+		<h1 data-aos="fade-down" data-aos-delay="200" data-aos-duration="1000" class="mt-6 text-6xl font-black">Контакты</h1>
+		<p data-aos="fade-down" data-aos-delay="300" data-aos-duration="1000" class="mt-7 text-neutral-500">Мы воплотим ваши идеи в реальность и Вы останетесь довольны</p>
+
+		<div class="grid grid-cols-12 gap-x-20 mt-16">
+			<div class="col-span-4 flex flex-col gap-y-5">
+				<a href="tel:380509650308" class="group flex items-center gap-x-4">
+					<span class="font-icon icon-call text-2xl opacity-50"></span>
+					<span class="underline decoration-neutral-500 group-hover:underline-offset-4 transition-all">+38 (050) 965 03 08</span>
+				</a>
+				<a href="mailto:info@styzzo.com" class="group flex items-center gap-x-4">
+					<span class="font-icon icon-mail text-2xl opacity-50"></span>
+					<span class="underline decoration-neutral-500 group-hover:underline-offset-4 transition-all">info@styzzo.com</span>
+				</a>
+				<a href="mailto:info@styzzo.com" class="flex items-start gap-x-4">
+					<span class="font-icon icon-near_me text-2xl opacity-50"></span>
+					<span>Украина, г. Харьков <br>61000,ул. Каразина 12</span>
+				</a>
+			</div>
+			<div class="col-span-8">
+				<form method="post">
+					<div class="grid grid-cols-3 gap-x-8">
+						<label class="block">
+							<input type="text" name="name" class="w-full bg-transparent focus:outline-none border-b border-neutral-300">
+							<span class="mt-1 text-neutral-500">Ваше Имя</span>
+						</label>
+						<label class="block">
+							<input type="email" name="email" class="w-full bg-transparent focus:outline-none border-b border-neutral-300">
+							<span class="mt-1 text-neutral-500">Email</span>
+						</label>
+						<label class="block">
+							<input type="tel" name="phone" class="w-full bg-transparent focus:outline-none border-b border-neutral-300" placeholder="+38 ( _ _ _ ) _ _ _  _ _  _ _">
+							<span class="mt-1 text-neutral-500">Номер телефона</span>
+						</label>
+						<label class="col-span-full mt-14">
+							<input type="text" name="message" class="w-full bg-transparent focus:outline-none border-b border-neutral-300">
+							<span class="mt-1 text-neutral-500">Сообщение</span>
+						</label>
+					</div>
+					<div class="flex justify-end mt-8">
+						<button type="button" class="btn-primary group flex items-center justify-between gap-x-5">
+							<span class="uppercase">Отправить</span>
+							<span class="font-icon icon-arrow_forward group-hover:translate-x-1 transition-transform duration-300 text-xl"></span>
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
+{{>footer-block}}
+{{>footer}}

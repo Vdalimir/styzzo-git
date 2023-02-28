@@ -1,0 +1,51 @@
+.rating {
+    /* -mx-1   */
+    @apply flex gap-[5px] items-center text-[15px] leading-[18px] text-[#828282];
+    &__stars {
+        @apply w-[70px] h-[14px] bg-contain bg-no-repeat bg-center;
+        &_ {
+            &0 {
+                background-image: url('./dist/img/rating-0.svg');
+            }
+            &1 {
+                background-image: url('./dist/img/rating-1.svg');
+            }
+            &2 {
+                background-image: url('./dist/img/rating-2.svg');
+            }
+            &3 {
+                background-image: url('./dist/img/rating-3.svg');
+            }
+            &4 {
+                background-image: url('./dist/img/rating-4.svg');
+            }
+            &5 {
+                background-image: url('./dist/img/rating-5.svg');
+            }
+        }
+    }
+    &__icon {
+        @apply pointer-events-none fill-current stroke-red-core text-transparent text-red-core;
+        &_empty {
+            @apply stroke-[#828282] text-transparent;
+        }
+    }
+    &__input {
+        @apply !absolute !left-[-9999px];
+        &_none {
+            @apply hidden;
+        }
+        &:checked ~ .rating__label .rating__icon {
+            @apply stroke-[#828282] text-transparent;
+        }
+    }
+    &__label {
+        @apply cursor-pointer;
+    }
+    &:hover .rating__label .rating__icon {
+        @apply stroke-red-core text-red-core;
+    }
+    &__input:hover ~ .rating__label .rating__icon {
+        @apply stroke-[#828282] text-transparent;
+    }
+}

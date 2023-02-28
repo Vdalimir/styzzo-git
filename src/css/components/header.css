@@ -1,0 +1,38 @@
+.header {
+	img.logo{
+		@apply flex-none w-16 xs:w-20 sm:w-[122px] xl:w-32 2xl:w-44;
+	}
+
+	ul.main-top-nav {
+		@apply flex flex-col lg:flex-row w-max lg:items-center gap-1 lg:gap-5 lg:mt-3 pb-2 border-r lg:border-r-0 lg:border-b-[1.5px] border-grey-light;
+		li.current_page_item a {
+			@apply bg-grey-bg lg:bg-transparent text-red-core;
+		}
+		li a {
+			@apply h3 lg:text-base lg:font-normal flex w-full pl-2 py-0.5 pr-4 lg:p-0 rounded-l hover:text-red-core;
+		}
+	}
+
+	ul.second-top-nav {
+		@apply flex flex-col lg:flex-row lg:w-max lg:items-center gap-2.5 lg:gap-3 2xl:gap-5;
+		li a{
+			@apply text-text-grey lg:whitespace-nowrap menu-text hover:text-text-black
+		}
+		li.current_page_item a{
+			@apply text-text-black
+		}
+	}
+}
+.shadow-checkbox-header {
+	box-shadow: 0 4px 4px rgba(51, 51, 51, 0.04), 0 4px 21px rgba(51, 51, 51, 0.13);
+}
+.header_calculator_wrapper {
+	.select_offer {
+		.offer_item {
+			@apply text-text-disable
+		}
+		.offer_item.active {
+			@apply text-black
+		}
+	}
+}

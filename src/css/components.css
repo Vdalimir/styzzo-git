@@ -1,0 +1,54 @@
+/* Buttons */
+@import './components/buttons.scss';
+
+/* Breadcrumbs */
+/* @import "./components/breadcrumbs.css"; */
+
+/* Overlay */
+/* @import "./components/overlay.css"; */
+
+/* Menu mobile */
+@import "./components/header.css";
+
+/* Footer elements */
+@import './components/footer.css';
+/* Icon */
+@import "./components/icon.css";
+
+/* Rating Stars */
+/* @import "./components/rating.css"; */
+
+/* Form elements */
+@import './components/form.css';
+
+
+/* Pagination */
+@import './components/pagination.css';
+
+/* Tags */
+@import "./components/tags.css";
+
+/* Search Form */
+/* @import "./components/search.css"; */
+
+/* Products list */
+/* @import "./components/list-products-1.css"; */
+
+/* Gallery */
+@import "./components/gallery.css";
+
+/* Content */
+@import "./components/content.css";
+
+/* Article Cards */
+/*@import "./components/article-card.scss";*/
+
+.block-loading {
+	@apply relative;
+	&:after {
+		@apply absolute top-1/2 left-1/2 z-[1] animate-spin font-icon text-lg text-red-core content-['\e907'];
+	}
+	&:before {
+		@apply absolute inset-0 z-[2] block h-full w-full bg-white bg-opacity-60 blur-md content-[''];
+	}
+}

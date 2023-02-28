@@ -1,0 +1,24 @@
+{
+    "footerCars": [
+        {
+            "name": "AUDI A4 2018",
+            "price": "$15 870",
+            "img": "car-img.png"
+        },
+        {
+            "name": "MERCEDES CLK350",
+            "price": "$8 869",
+            "img": "auto.jpg"
+        },
+        {
+            "name": "ZAZ AUTO",
+            "price": "$178 963",
+            "img": "fordd.jpeg"
+        },
+        {
+            "name": "FORD EDGE 2022",
+            "price": "$24 560",
+            "img": "fordd3.jpeg"
+        }
+    ]
+}

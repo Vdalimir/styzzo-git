@@ -1,0 +1,87 @@
+.footer {
+
+    .contact-item {
+        .city, .street, .phone, .email {
+            @apply relative block w-fit;
+            word-break: break-word;
+        }
+        .city:before {
+            @apply sm:hidden absolute -left-7 font-icon text-lg leading-6 align-middle text-red-core content-['\e908'];
+        }
+        .street:before {
+            @apply hidden sm:absolute mr-3 -left-7 top-0.5 font-icon text-lg leading-6 align-middle text-red-core content-['\e908'];
+        }
+        .phone:before {
+            @apply sm:hidden sm:absolute mr-3 -left-7 top-0.5 font-icon text-lg leading-6 align-middle text-red-core content-['\e920'];
+        }
+        .email:before {
+            @apply sm:hidden sm:absolute mr-3 -left-7 top-0.5 font-icon text-lg leading-6 align-middle text-red-core content-['\e913'];
+        }
+
+    }
+    .contact-item:nth-child(n) {
+        @apply pl-7 sm:pl-0;
+        .street::before {
+            @apply md:hidden;
+        }
+        .phone::before {
+            @apply md:hidden;
+        }
+        .email::before {
+            @apply md:hidden;
+        }
+    }
+
+    .contact-item:nth-child(2n + 1) {
+        @apply sm:pl-7 md:pl-0;
+
+        .street::before {
+            @apply sm:block md:hidden;
+        }
+        .phone::before {
+            @apply sm:block md:hidden;
+        }
+        .email::before {
+            @apply sm:block md:hidden;
+        }
+    }
+    .contact-item:nth-child(3n + 1) {
+        @apply md:pl-7 lg:pl-0;
+
+        .street::before {
+            @apply md:block lg:hidden;
+        }
+        .phone::before {
+            @apply md:block lg:hidden;
+        }
+        .email::before {
+            @apply md:block lg:hidden;
+        }
+    }
+    .contact-item:nth-child(4n +1) {
+        @apply lg:pl-7 xl:pl-0;
+
+        .street::before {
+            @apply lg:block xl:hidden;
+        }
+        .phone::before {
+            @apply lg:block xl:hidden;
+        }
+        .email::before {
+            @apply lg:block xl:hidden;
+        }
+    }
+    .contact-item:nth-child(5n +1) {
+        @apply xl:pl-7;
+
+        .street::before {
+            @apply xl:block;
+        }
+        .phone::before {
+            @apply xl:block;
+        }
+        .email::before {
+            @apply xl:block;
+        }
+    }
+}

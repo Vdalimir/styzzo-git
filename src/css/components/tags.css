@@ -1,0 +1,15 @@
+.tag-filter {
+    @apply flex h-[26px] w-max items-center gap-1 rounded bg-red px-[7px] text-sm text-white hover:bg-red-core active:bg-red-active;
+    span {
+        @apply text-base cursor-pointer;
+    }
+    svg {
+        @apply h-4 w-4
+    }
+}
+.tag-post {
+    @apply flex h-6 px-3 w-max items-center gap-1 rounded-full bg-text-white text-sm hover:bg-red-core hover:text-white active:bg-red-active active:text-white shadow-theme-grey hover:shadow-theme-red;
+    &.selected {
+        @apply bg-red-core text-white shadow-theme-red;
+    }
+}

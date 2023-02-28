@@ -1,0 +1,22 @@
+{
+    "carGallery": [
+        {
+            "url": "src/img/fordd.jpeg"
+        },
+        {
+            "url": "src/img/fordd2.png"
+        },
+        {
+            "url": "src/img/fordd3.jpeg"
+        },
+        {
+            "url": "src/img/fordd4.png"
+        },
+        {
+            "url": "src/img/fordd5.png"
+        },
+        {
+           "url": "src/img/fordd6.png"
+        }
+    ]
+}

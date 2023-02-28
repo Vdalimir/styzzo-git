@@ -1,0 +1,126 @@
+@layer base {
+	.input {
+		@apply w-full;
+
+		[type='text'],
+		[type='email'],
+		[type='url'],
+		[type='password'],
+		[type='number'],
+		[type='date'],
+		[type='datetime-local'],
+		[type='month'],
+		[type='search'],
+		[type='tel'],
+		[type='time'],
+		[type='week'],
+		[multiple],
+		textarea,
+		select,
+		.ts-control {
+			@apply w-full text-text-enable rounded border-none px-2.5 py-1 text-base shadow-theme-grey ring-0 transition-shadow
+			placeholder:text-text-enable
+			focus:ring-0
+			disabled:pointer-events-none
+			disabled:text-text-disable
+			disabled:placeholder:text-text-disable hover:shadow-theme-grey-hover active:shadow-theme-grey-active;
+		}
+		.ts-control,
+		select {
+			@apply !pr-8;
+		}
+
+		textarea {
+			@apply min-h-[150px];
+		}
+
+	}
+	.ts-control,
+	.ts-wrapper.single.input-active .ts-control,
+	select {
+		background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTcuNDUxOTYgMTMuMDQ2QzcuNTEzMTIgMTMuMTM0OSA3LjU5NDk1IDEzLjIwNzUgNy42OTA0MiAxMy4yNTc3QzcuNzg1ODggMTMuMzA3OCA3Ljg5MjExIDEzLjMzNDEgNy45OTk5NiAxMy4zMzQxQzguMTA3OCAxMy4zMzQxIDguMjE0MDMgMTMuMzA3OCA4LjMwOTUgMTMuMjU3N0M4LjQwNDk2IDEzLjIwNzUgOC40ODY4IDEzLjEzNDkgOC41NDc5NiAxMy4wNDZMMTQuNTQ4IDQuMzc5MzdDMTQuNjE3NCA0LjI3OTQxIDE0LjY1ODEgNC4xNjIzMyAxNC42NjU3IDQuMDQwODRDMTQuNjczMyAzLjkxOTM2IDE0LjY0NzQgMy43OTgxMiAxNC41OTA5IDMuNjkwM0MxNC41MzQ1IDMuNTgyNDggMTQuNDQ5NSAzLjQ5MjIxIDE0LjM0NTMgMy40MjkyOEMxNC4yNDExIDMuMzY2MzUgMTQuMTIxNyAzLjMzMzE4IDE0IDMuMzMzMzdIMS45OTk5NkMxLjg3ODUyIDMuMzMzODggMS43NTk1MiAzLjM2NzQ3IDEuNjU1NzQgMy40MzA1NUMxLjU1MTk3IDMuNDkzNjMgMS40NjczNiAzLjU4MzggMS40MTEgMy42OTEzN0MxLjM1NDY1IDMuNzk4OTQgMS4zMjg2OCAzLjkxOTg0IDEuMzM1OSA0LjA0MTA2QzEuMzQzMTEgNC4xNjIyOSAxLjM4MzI0IDQuMjc5MjUgMS40NTE5NiA0LjM3OTM3TDcuNDUxOTYgMTMuMDQ2WiIgZmlsbD0iIzQ1NDU0NSIvPgo8L3N2Zz4K');
+		@apply bg-[length:1rem] bg-[right_8px_center] bg-no-repeat;
+	}
+	.autocomplete {
+		.ts-dropdown,
+		.ts-control,
+		.ts-control input {
+			@apply text-base font-medium text-text-black;
+		}
+		.ts-control input {
+			@apply placeholder:text-text-grey disabled:text-text-disable disabled:placeholder:text-text-disable;
+		}
+
+		.ts-dropdown {
+			box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04), 0px 14px 24px rgba(51, 51, 51, 0.12);
+			@apply rounded border-none;
+		}
+
+		.ts-dropdown .active {
+			@apply bg-[#F8F8F8] text-inherit;
+		}
+		.ts-dropdown .selected {
+			background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTYuNDM3NjIgMTIuNjQyNUM2LjE2MzUgMTIuNDE3NiA1LjgwNjI5IDEyLjI5NTUgNS40Mzc2NiAxMi4zMDA5QzUuMDY5MDMgMTIuMzA2MiA0LjcxNjI1IDEyLjQzODUgNC40NTAwNyAxMi42NzEyQzQuMTgzODkgMTIuOTAzOSA0LjAyNDAxIDEzLjIxOTkgNC4wMDI0OSAxMy41NTU2QzMuOTgwOTggMTMuODkxNCA0LjA5OTQyIDE0LjIyMjIgNC4zMzQwNyAxNC40ODE2TDcuNTc3MDUgMTcuNTg2OEM3LjcxMjgzIDE3LjcxNjggNy44NzU5OCAxNy44MjA0IDguMDU2NzIgMTcuODkxM0M4LjIzNzQ1IDE3Ljk2MjMgOC40MzIwNSAxNy45OTkzIDguNjI4ODMgMThDOC44MjQ1NiAxOC4wMDEgOS4wMTg1MyAxNy45NjYyIDkuMTk5MjEgMTcuODk3NUM5LjM3OTg5IDE3LjgyODggOS41NDM1OSAxNy43Mjc3IDkuNjgwNjEgMTcuNjAwMkwxOS41ODQ5IDguMjcxMTlDMTkuNzE5MSA4LjE0NTE4IDE5LjgyNDkgNy45OTYyOCAxOS44OTYxIDcuODMyOThDMTkuOTY3MyA3LjY2OTY4IDIwLjAwMjYgNy40OTUxOCAxOS45OTk5IDcuMzE5NDVDMTkuOTk3MSA3LjE0MzcyIDE5Ljk1NjUgNi45NzAyIDE5Ljg4MDMgNi44MDg3OUMxOS44MDQxIDYuNjQ3MzggMTkuNjkzOCA2LjUwMTI1IDE5LjU1NTYgNi4zNzg3NEMxOS40MTc1IDYuMjU2MjQgMTkuMjU0MyA2LjE1OTc0IDE5LjA3NTMgNi4wOTQ3OEMxOC44OTYzIDYuMDI5ODIgMTguNzA1IDUuOTk3NjYgMTguNTEyNCA2LjAwMDEzQzE4LjMxOTggNi4wMDI2MSAxOC4xMjk2IDYuMDM5NjcgMTcuOTUyNyA2LjEwOTIxQzE3Ljc3NTggNi4xNzg3NCAxNy42MTU2IDYuMjc5MzkgMTcuNDgxMyA2LjQwNTRMOC42NDM0NCAxNC43NDgyTDYuNDM3NjIgMTIuNjQyNVoiIGZpbGw9IiMxMTExMTEiLz4KPC9zdmc+Cg==');
+			@apply bg-[#f0f0f0] pr-10 text-inherit;
+		}
+
+		.ts-dropdown .option,
+		.ts-dropdown .optgroup-header,
+		.ts-dropdown .no-results,
+		.ts-dropdown .create {
+			font-size: inherit;
+			@apply bg-[length:1.25rem] bg-[right_12px_center] bg-no-repeat px-4 py-2 hover:bg-grey-light/30 hover:text-text-black;
+		}
+	}
+
+	.radio-checkbox-state {
+		@apply border-text-disable bg-[length:20px_20px] ring-0 ring-offset-0
+			checked:border-red-core checked:bg-red-core
+			invalid:border-red-girl invalid:bg-red-girl
+			focus:bg-white focus:outline-offset-[-2px] focus:outline-[#828282]
+			checked:focus:bg-red-core checked:focus:focus:outline-[#6a0b08] disabled:border-text-disable disabled:bg-white checked:disabled:!border-text-disable checked:disabled:bg-text-disable
+			hover:border-text-disable hover:bg-[#FAFAFA]
+			checked:hover:border-red-hover checked:hover:bg-red-hover
+			active:border-text-disable active:bg-[#F1F1F1]
+			checked:active:border-red-active checked:active:bg-red-active;
+		&:invalid {
+			~ span {
+				@apply text-red;
+			}
+		}
+		&:disabled:hover,
+		&:disabled {
+			~ span {
+				@apply text-text-disable;
+			}
+		}
+		/* &:hover {
+				~ span {
+					@apply text-text-black;
+				}
+			} */
+	}
+
+	.checkbox {
+		@apply flex gap-x-3;
+		> span {
+			@apply h4;
+		}
+
+		[type='checkbox'] {
+			@apply radio-checkbox-state h-6 w-6 rounded;
+		}
+		[type='radio'] {
+			@apply h-5 w-5;
+		}
+	}
+	.radio {
+		@apply flex gap-x-3;
+		> span {
+			@apply pt-0.5;
+		}
+		[type='radio'] {
+			@apply radio-checkbox-state h-5 w-5;
+		}
+	}
+}

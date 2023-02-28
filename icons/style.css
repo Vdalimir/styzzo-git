@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'styzzo';
+  src:  url('fonts/styzzo.eot?puebyr');
+  src:  url('fonts/styzzo.eot?puebyr#iefix') format('embedded-opentype'),
+    url('fonts/styzzo.ttf?puebyr') format('truetype'),
+    url('fonts/styzzo.woff?puebyr') format('woff'),
+    url('fonts/styzzo.svg?puebyr#styzzo') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'styzzo' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-call:before {
+  content: "\e901";
+}
+.icon-near_me:before {
+  content: "\e902";
+}
+.icon-mail:before {
+  content: "\e903";
+}
+.icon-arrow_forward:before {
+  content: "\e900";
+}
+.icon-facebook2:before {
+  content: "\ea91";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-linkedin:before {
+  content: "\eac9";
+}

@@ -1,0 +1,34 @@
+{
+    "contacts": [
+        {
+            "city": "Київ",
+            "street": "вул. Паньківська, 27/78",
+            "phone": "+380 67 400 8847",
+            "email": "info+kyiv@w8shipping.ua"
+        },
+        {
+            "city": "Одеса",
+            "street": "вул. Філатова 2, корп. 1  ",
+            "phone": "+380 67 444 8820",
+            "email": "info+odessa@w8shipping.ua"
+        },
+        {
+            "city": "Львів",
+            "street": "вул. Академіка Андрія Сахарова, 43",
+            "phone": "+380 67 444 8812",
+            "email": "info+lviv@w8shipping.ua"
+        },
+        {
+            "city": "Дніпро",
+            "street": "просп. Олександра Поля, 100 ",
+            "phone": "+380 67 400 8875",
+            "email": "info+dnipro@w8shipping.ua"
+        },
+        {
+            "city": "Харків",
+            "street": "вул. Гімназійна набережна, 4 ",
+            "phone": "+380 67 444 8827",
+            "email": "info+kharkiv@w8shipping.ua"
+        }
+    ]
+}

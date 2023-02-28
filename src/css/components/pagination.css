@@ -1,0 +1,21 @@
+@layer base {
+
+	.pagination {
+		@apply flex items-center gap-1.5;
+		a {
+			@apply block w-[34px] h-8 bg-grey-bg hover:bg-text-white rounded flex items-center justify-center text-xl font-semibold leading-[28px] shadow-theme-grey hover:shadow-theme-grey-hover active:shadow-theme-grey-active
+			disabled:opacity-50;
+			&.active {
+				@apply bg-red-core text-text-white pointer-events-none
+			}
+			&[disabled] {
+				opacity: 0.5;
+				pointer-events: none;
+			}
+			&.disabled {
+				opacity: 0.5;
+				pointer-events: none;
+			}
+		}
+	}
+}

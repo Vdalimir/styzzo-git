@@ -1,0 +1,124 @@
+{
+    "popularMarksCatalog": [
+        {
+            "name": "Bentley",
+            "isPopular": false,
+            "link": "#",
+            "logo": "Lamborghini_Logo.png"
+        },
+        {
+            "name": "Dodge",
+            "isPopular": true,
+            "link": "#",
+            "logo": "Ford_logo.png"
+        },
+        {
+            "name": "Hyundai",
+            "isPopular": false,
+            "link": "#",
+            "logo": "Lamborghini_Logo.png"
+        },
+        {
+            "name": "Lexus",
+            "isPopular": false,
+            "link": "#",
+            "logo": "Lamborghini_Logo.png"
+        },
+        {
+            "name": "Nissan",
+            "isPopular": false,
+            "link": "#",
+            "logo": "Lamborghini_Logo.png"
+        },
+        {
+            "name": "BMW",
+            "isPopular": true,
+            "link": "#",
+            "logo": "Ford_logo.png"
+        },
+        {
+            "name": "Аcura",
+            "isPopular": false,
+            "link": "#",
+            "logo": "Lamborghini_Logo.png"
+        },
+        {
+            "name": "FORD",
+            "isPopular": true,
+            "link": "#",
+            "logo": "Ford_logo.png"
+        },
+        {
+            "name": "Cadillac",
+            "isPopular": false,
+            "link": "#",
+            "logo": "Lamborghini_Logo.png"
+        },
+        {
+            "name": "Jaguar",
+            "isPopular": false,
+            "link": "#",
+            "logo": "Lamborghini_Logo.png"
+        },
+        {
+            "name": "Alpha-romero",
+            "isPopular": false,
+            "link": "#",
+            "logo": "Lamborghini_Logo.png"
+        },
+        {
+            "name": "Jeep",
+            "isPopular": true,
+            "link": "#",
+            "logo": "Ford_logo.png"
+        },
+        {
+            "name": "GMC",
+            "isPopular": false,
+            "link": "#",
+            "logo": "Lamborghini_Logo.png"
+        },
+        {
+            "name": "Сan0AM",
+            "isPopular": true,
+            "link": "#",
+            "logo": "Ford_logo.png"
+        },
+        {
+            "name": "Hyundai",
+            "isPopular": false,
+            "link": "#",
+            "logo": "Lamborghini_Logo.png"
+        },
+        {
+            "name": "Lexus",
+            "isPopular": false,
+            "link": "#",
+            "logo": "Lamborghini_Logo.png"
+        },
+        {
+            "name": "Nissan",
+            "isPopular": false,
+            "link": "#",
+            "logo": "Lamborghini_Logo.png"
+        },
+        {
+            "name": "BMW",
+            "isPopular": true,
+            "link": "#",
+            "logo": "Ford_logo.png"
+        },
+        {
+            "name": "Bentley",
+            "isPopular": false,
+            "link": "#",
+            "logo": "Lamborghini_Logo.png"
+        },
+        {
+            "name": "Dodge",
+            "isPopular": true,
+            "link": "#",
+            "logo": "Ford_logo.png"
+        }
+    ]
+}

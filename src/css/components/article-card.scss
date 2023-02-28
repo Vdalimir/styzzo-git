@@ -1,0 +1,49 @@
+@layer components {
+    .article-card {
+        @apply bg-text-white flex flex-col rounded shadow-theme-grey overflow-hidden;
+        .article-card-image-link {
+            @apply relative flex-none;
+            img {
+                @apply object-cover h-52 w-full;
+            }
+        }
+        .article-card-info {
+            @apply h-full flex flex-col p-3 pt-4;
+            .article-card-link {
+                @apply h3 hover:underline line-clamp-2;
+            }
+            .article-card-desc {
+                @apply mt-4 line-clamp-3;
+            }
+            .article-card-button-link {
+                @apply pt-4 mt-auto;
+                a {
+                    @apply btn-shadow-sm flex w-full shadow-theme-grey hover:shadow-theme-grey-hover;
+                }
+            }
+        }
+        &-sm {
+            @apply flex-row;
+            .article-card-image-link {
+                @apply relative flex-none;
+                img {
+                    @apply w-64 h-full;
+                }
+            }
+            .article-card-info {
+                @apply py-3 px-5;
+                .article-card-desc {
+                    @apply mt-3;
+                }
+                .article-card-button-link {
+                    a {
+                        @apply w-max sm:px-12;
+                    }
+                }
+            }
+        }
+        &-md {
+
+        }
+    }
+}

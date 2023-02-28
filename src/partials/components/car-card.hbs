@@ -1,0 +1,63 @@
+{{#with car}}
+    <div class="swiper-slide">
+        <div class="w-[313px] sm:w-80 md:w-[360px] lg:w-full bg-text-white shadow-theme-grey relative rounded overflow-hidden">
+            <div class="relative rounded">
+                <a href="/auto.html">
+                    <img src="src/img/car.png" class="w-full h-48 md:h-60 lg:h-48 2xl:h-60 object-cover rounded" alt="{{name}}">
+                </a>
+                <div class="absolute top-0 right-0 p-2 flex flex-col gap-3 bg-black bg-opacity-40 rounded-bl">
+                    <button type="button" class="text-white opacity-80 hover:opacity-100">
+                        <span class="icon-heart text-2xl"></span>
+                    </button>
+                    <button type="button" class="text-white opacity-80 hover:opacity-100">
+                        <span class="icon-femida text-2xl"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="p-4">
+                <a href="/auto.html" class="h3">{{name}}</a>
+                <div class="mt-4 w-full grid grid-cols-2 gap-2 pb-4 border-b-2 border-grey-light">
+                    <div class="flex flex-col gap-2">
+                        <div class="flex items-center">
+                            <span class="icon-engine text-2xl text-text-enable mr-3"></span>
+                            <span>3.2</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="icon-odometr text-2xl text-text-enable mr-3"></span>
+                            <span>48 000 км</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="icon-transmission text-2xl text-text-enable mr-3"></span>
+                            <span>автомат</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <div class="flex items-center">
+                            <span class="icon-gas-station text-2xl text-text-enable mr-3"></span>
+                            <span>бензин</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="icon-gasoline text-2xl text-text-enable mr-3"></span>
+                            <span>8,5л/100 км</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="icon-damages text-2xl text-text-enable mr-3"></span>
+                            <span>втоплений</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-3 pb-3 border-b-2 border-grey-light">
+                    <div class="flex items-center gap-4 xl:gap-3">
+                        <h4 class="h4 flex-1">Ціна під ключ:</h4>
+                        <h2 class="h2 flex-1 text-red-core">$14 850</h2>
+                    </div>
+                    <p class="text-text-grey">Аукціон через 15 днів</p>
+                </div>
+                <div class="mt-3 flex flex-col md:flex-row lg:flex-col 2xl:flex-row items-center gap-3">
+                    <button type="button" class="w-full 2xl:w-auto btn-shadow-sm px-10"><span data-content="Зробити ставку">Зробити ставку</span></button>
+                    <button type="button" class="w-full 2xl:w-auto btn-sm px-6"><span data-content="Детальніше">Детальніше</span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+{{/with}}

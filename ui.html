@@ -1,0 +1,27 @@
+{{> header }}
+<div class="container relative grid grid-cols-12 items-start gap-6 pb-14 sm:pb-16 lg:pb-20 xl:pb-28">
+	<ul class="sticky col-span-2 top-36 flex flex-col gap-3">
+		{{#each uis as |block| }}
+			<li><a href="#{{block}}" class="btn-shadow-sm">{{block}}</a></li>
+				{{/each}} {{#each blocks as |block| }}
+			<li><a href="#{{block}}" class="btn-shadow-sm">{{block}}</a></li>
+		{{/each}}
+	</ul>
+	<div class="col-span-10 py-3">
+		<div class="grid gap-8">
+			{{#each uis as |ui| }}
+			<div id="{{ui}}">
+				<div class="mb-6 inline-block bg-black px-5 py-2 text-lg uppercase text-white">{{ui}}</div>
+				{{> (ui) data=../data }}
+			</div>
+			{{/each}} {{#each blocks as |block| }}
+			<div id="{{block}}">
+				<div class="mb-6 inline-block bg-black px-5 py-2 text-lg uppercase text-white">{{block}}</div>
+				{{> (block) data=../data }}
+			</div>
+			{{/each}}
+		</div>
+	</div>
+</div>
+
+{{> footer }}

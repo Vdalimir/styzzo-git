@@ -1,0 +1,27 @@
+@import 'lightgallery/css/lightgallery-bundle.min.css';
+body.gallery-open {
+    @apply h-auto overflow-hidden lg:pr-4;
+    .overlay#bodyOverlay {
+        @apply z-[60] flex;
+    }
+}
+
+.gallery {
+    .swiper {
+        @apply w-full;
+    }
+}
+
+#modalSwiperThumb {
+    .swiper-slide {
+        @apply w-[unset] py-5 first:ml-3 last:mr-3;
+        img {
+            @apply overflow-hidden rounded ring-2 ring-transparent aspect-square h-full w-full object-cover;
+        }
+        &.swiper-slide-thumb-active {
+            img {
+                @apply ring-red-core;
+            }
+        }
+    }
+}

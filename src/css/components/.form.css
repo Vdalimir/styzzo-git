@@ -1,0 +1,323 @@
+.form {
+	@apply flex w-full flex-col gap-2.5 lg:gap-5;
+	&__item {
+		@apply relative sm:flex sm:flex-row-reverse sm:flex-wrap sm:items-center sm:justify-end;
+		&.invalid {
+			[type='text'],
+			[type='email'],
+			[type='url'],
+			[type='password'],
+			[type='number'],
+			[type='date'],
+			[type='datetime-local'],
+			[type='month'],
+			[type='search'],
+			[type='tel'],
+			[type='time'],
+			[type='week'],
+			textarea {
+				@apply bg-red-girl;
+			}
+		}
+		&.valid {
+			@apply font-icon-done;
+			[type='text'],
+			[type='email'],
+			[type='url'],
+			[type='number'],
+			[type='date'],
+			[type='datetime-local'],
+			[type='month'],
+			[type='search'],
+			[type='tel'],
+			[type='time'],
+			[type='week'],
+			textarea,
+			select {
+				@apply bg-green;
+			}
+			&:before {
+				@apply absolute top-1/2 right-3 -translate-y-1/2 font-icon text-2xl text-green-success;
+			}
+		}
+		&_select:not(.multiple) {
+			&.valid {
+				&:before {
+					@apply right-9;
+				}
+			}
+		}
+		.h3 {
+			@apply mb-5;
+		}
+		/* label {
+            @apply sm:pt-3.5;
+        } */
+	}
+	.without-label {
+		~ .form__helptext {
+			@apply sm:absolute sm:-bottom-5 sm:before:hidden;
+		}
+	}
+	&[data-ts-whith-out-input] {
+		.ts-wrapper.has-items .ts-control > input {
+			@apply !hidden;
+		}
+	}
+	.ts {
+		> input {
+			@apply placeholder-transparent;
+		}
+		&-wrapper {
+			@apply w-full flex-1 cursor-pointer sm:w-[70%];
+			&.multi .ts-control [data-value] {
+				@apply max-w-[80px] border-none bg-red px-2 text-sm hover:bg-red-core;
+				&.active {
+					@apply bg-[#861814];
+				}
+				text-shadow: none;
+				background-image: none;
+			}
+			&.plugin-clear_button {
+				.ts-control {
+					@apply !pr-16;
+				}
+			}
+
+			&:not(.multi) {
+				.ts-control {
+					@apply !bg-arrow-select !bg-no-repeat pr-10;
+					background-position: 98% 50% !important;
+					> * {
+						@apply truncate;
+					}
+				}
+			}
+			&.disabled {
+				@apply pointer-events-none;
+			}
+		}
+		&-control {
+			/* background-image: none !important; */
+		}
+		&-dropdown {
+			@apply rounded border-none;
+			.option {
+				@apply py-2 px-4 text-sm !text-black;
+				&.active {
+					@apply bg-[#F8F8F8];
+				}
+			}
+			.create:hover,
+			.option:hover,
+			.active {
+				@apply bg-[#F8F8F8];
+			}
+			.selected {
+				@apply bg-transparent bg-selected bg-no-repeat;
+				background-position: calc(100% - 12px) center;
+			}
+			&-content {
+			}
+		}
+	}
+
+	.ts-control,
+	[type='text'],
+	[type='email'],
+	[type='url'],
+	[type='password'],
+	[type='number'],
+	[type='date'],
+	[type='datetime-local'],
+	[type='month'],
+	[type='search'],
+	[type='tel'],
+	[type='time'],
+	[type='week'],
+	textarea,
+	select,
+	[multiple] {
+		&:not(.not-styled) {
+			@apply w-full select-none rounded border-none bg-grey pt-5 pb-2 pl-4 pr-11 text-[13px] leading-5
+            placeholder-transparent shadow-grey ring-0
+            sm:flex-1 sm:py-[11px] sm:px-5 sm:text-base;
+		}
+
+		&:disabled {
+			@apply pointer-events-none text-[#8D8D8D];
+			~ label {
+				@apply text-[#8D8D8D];
+			}
+		}
+		&[required] {
+			~ label {
+				@apply after:text-red-core after:content-['*'];
+			}
+		}
+		~ label {
+			@apply pointer-events-none absolute left-4 top-3 z-10 origin-top-left text-[13px] text-[#383838] transition-transform;
+		}
+
+		&.without-label {
+			@apply sm:py-[16px] sm:pb-[6px];
+		}
+
+		/* &:placeholder-shown {
+            ~ label {
+                @apply top-[15px];
+            }
+            &.without-label {
+                ~ label {
+                    @apply sm:top-[-2px];
+                }
+            }
+        } */
+		/* &:placeholder-shown {
+            ~ label {
+                @apply top-[15px];
+            }
+            &.without-label {
+                ~ label {
+                    @apply sm:top-[-2px];
+                }
+            }
+        } */
+		&:not(:placeholder-shown),
+		&:focus {
+			~ label {
+				@apply -translate-y-2.5 -translate-x-2 scale-90 sm:[transform:none];
+			}
+			&.without-label {
+				~ label {
+					@apply sm:translate-y-[-14px];
+				}
+			}
+		}
+
+		&:not(.without-label) {
+			@apply placeholder:font-normal sm:placeholder-gray-400 sm:focus:placeholder-transparent;
+			~ label {
+				@apply sm:relative sm:!top-[unset] sm:!left-[unset] sm:w-[30%] sm:!text-sm;
+			}
+		}
+		&::-webkit-calendar-picker-indicator {
+			@apply opacity-0;
+		}
+		&::-webkit-outer-spin-button,
+		&::-webkit-inner-spin-button {
+			-webkit-appearance: none;
+			margin: 0;
+		}
+		&::-webkit-datetime-edit,
+		&::-webkit-datetime-edit-fields-wrapper,
+		&::-webkit-datetime-edit-text,
+		&::-webkit-datetime-edit-month-field,
+		&::-webkit-datetime-edit-day-field,
+		&::-webkit-datetime-edit-year-field {
+			@apply text-left;
+		}
+
+		-moz-appearance: textfield;
+	}
+	select {
+		@apply bg-white;
+		&:not(.tomselected):valid,
+		&:not(.tomselected):valid:disabled {
+			~ label {
+				@apply !top-1.5 !left-2 !text-xs sm:!top-[unset] sm:!left-[unset] sm:!text-base;
+			}
+		}
+	}
+	select:not([multiple]) {
+		@apply bg-arrow-select bg-no-repeat;
+	}
+	&__label {
+		@apply flex select-none flex-wrap gap-x-3 gap-y-1 text-black;
+		.form__helptext {
+			@apply pl-[36px] sm:before:content-[none];
+		}
+	}
+	&__checklabel {
+		@apply mt-[2px] flex-1 leading-5;
+	}
+	[type='checkbox'],
+	[type='radio'] {
+		@apply border-[#D4D4D4] bg-[length:20px_20px] ring-0 ring-offset-0
+        checked:border-red-core checked:bg-red-core
+        invalid:border-red-girl invalid:bg-red-girl
+        hover:border-input-text-disable hover:bg-[#FAFAFA] checked:hover:border-[#A1201C]
+        checked:hover:bg-[#A1201C] focus:bg-white     focus:outline-offset-[-2px] focus:outline-[#828282]     checked:focus:bg-red-core checked:focus:focus:outline-[#6a0b08]
+        active:border-input-text-disable active:bg-[#F1F1F1]
+        checked:active:border-[#861814] checked:active:bg-[#861814]
+        disabled:border-[#D4D4D4] disabled:bg-white
+        checked:disabled:!border-[#D4D4D4] checked:disabled:bg-[#D4D4D4];
+		&:invalid {
+			~ div {
+				@apply text-red;
+			}
+		}
+		&:disabled:hover,
+		&:disabled {
+			~ div {
+				@apply text-[#cfcfcf];
+			}
+		}
+		&:hover {
+			~ div {
+				@apply text-black;
+			}
+		}
+	}
+	[type='checkbox'] {
+		@apply h-6 w-6 rounded;
+	}
+	[type='radio'] {
+		@apply h-5 w-5;
+	}
+	&__inputs {
+		@apply grid w-full grid-cols-1 gap-4;
+	}
+	&__helptext {
+		@apply w-full pl-4 text-[13px] leading-5 text-[#828282]
+        sm:mt-1 sm:flex sm:before:block sm:before:w-[30%] sm:before:content-[''];
+		&.text-error {
+			@apply text-red-core;
+		}
+		.form__inputs {
+			@apply gap-y-2;
+		}
+	}
+	&__radios {
+		@apply flex w-full flex-col gap-2;
+	}
+	&__actions {
+		@apply flex gap-5;
+	}
+	textarea {
+		@apply min-h-[150px];
+	}
+	.help-text-area {
+		.form__helptext:before {
+			content: none;
+		}
+	}
+}
+.plugin-clear_button.single .clear-button {
+	right: 1.25rem;
+	top: 0;
+	z-index: 2;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: -1.2rem;
+	font-size: 1.5rem;
+	height: 100%;
+	width: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.plugin-clear_button.has-items .clear-button {
+	opacity: 1;
+}

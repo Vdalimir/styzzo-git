@@ -1,0 +1,285 @@
+{
+    "product": {
+        "id": 10247,
+        "name": "Камінна топка Kratki ZUZIA 16 DG",
+        "slug": "kratki-zuzia-pf-dg-2",
+        "permalink": "http://termokamin.local/p/kratki-zuzia-pf-dg-2/",
+        "date_created": "2022-02-04T13:32:31",
+        "date_created_gmt": "2022-02-04T13:32:31",
+        "date_modified": "2022-02-04T13:32:42",
+        "date_modified_gmt": "2022-02-04T13:32:42",
+        "type": "simple",
+        "status": "publish",
+        "featured": true,
+        "catalog_visibility": "visible",
+        "description": "<p><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"></p>\n<h3>Максимальне використання енергії</h3>\n<p>Максимальне використання тепла завдяки щільно розташованим радіаторам та стінкам камери згоряння з високоякісного чавуну товщиною 8 мм.</p>\n<p>Збільшена поверхня теплообміну між гарячими димовими газами та приміщенням завдяки високому переходу з каміна в димохід.</p>\n<p>Спалювання частинок палива завдяки дефлектору, який подовжує час проходження димових газів.</p>\n<p>Підвищена ефективність роботи топки завдяки ручному регулюванню тяги димоходу за допомогою вбудованого шибера.</p>\n<p>Ручний контроль за процесом згоряння здійснюється зсуванням золи.</p>\n<h3>Безпека на найвищому рівні</h3>\n<p>Класична передня частина топки викладена жаростійкою керамікою, яка витримує температуру до 660°C.</p>\n<p>Декоративна перегородка полегшує утримання чистоти при використанні і захищає від випадання дров.</p>\n<h3>Комфортне користування</h3>\n<p>Система холодної ручки знижує ризик опіку через можливість її зняття під час паління.</p>\n<p>Ящик/контейнер для золи, у якому накопичуються залишки згорілої деревини і рухома решітка для полегшення видалення золи.</p>\n<p>Обмеження налипання кіптяви завдяки системі чистого скла (дефлектор повітря).</p>\n<p>Гарантія 5 років.</p>\n<p></span></span></p>\n",
+        "short_description": "Камін із завжди актуальним дизайном &#8211; це перший вибір серед тих, хто шукає класичну топку.",
+        "sku": "ZUZIA/PF/DG",
+        "price": "1222",
+        "regular_price": "1222",
+        "sale_price": "1000",
+        "date_on_sale_from": null,
+        "date_on_sale_from_gmt": null,
+        "date_on_sale_to": null,
+        "date_on_sale_to_gmt": null,
+        "on_sale": false,
+        "purchasable": true,
+        "total_sales": 0,
+        "virtual": false,
+        "downloadable": false,
+        "downloads": [],
+        "download_limit": -1,
+        "download_expiry": -1,
+        "external_url": "",
+        "button_text": "",
+        "tax_status": "none",
+        "tax_class": "",
+        "manage_stock": false,
+        "stock_quantity": null,
+        "backorders": "no",
+        "backorders_allowed": false,
+        "backordered": false,
+        "low_stock_amount": null,
+        "sold_individually": false,
+        "weight": "150.0",
+        "dimensions": {
+            "length": "44.20",
+            "width": "65.20",
+            "height": "81.00"
+        },
+        "shipping_required": true,
+        "shipping_taxable": false,
+        "shipping_class": "",
+        "shipping_class_id": 0,
+        "reviews_allowed": true,
+        "average_rating": "0.00",
+        "rating_count": 6,
+        "upsell_ids": [],
+        "cross_sell_ids": [],
+        "parent_id": 0,
+        "purchase_note": "",
+        "categories": [
+            {
+                "id": 6557,
+                "name": "Аксесуари",
+                "slug": "accessories"
+            }
+        ],
+        "tags": [],
+        "images": [
+            {
+                "id": 656,
+                "date_created": "2022-02-02T23:42:56",
+                "date_created_gmt": "2022-02-02T23:42:56",
+                "date_modified": "2022-02-04T13:32:42",
+                "date_modified_gmt": "2022-02-04T13:32:42",
+                "src": "/src/img/product/1.png",
+                "name": "www-kominek-powietrzny-zuzia-16-pf-1-960-960-1-0-0",
+                "alt": "Камінна топка Kratki ZUZIA 16 DG"
+            },
+            {
+                "id": 656,
+                "date_created": "2022-02-02T23:42:56",
+                "date_created_gmt": "2022-02-02T23:42:56",
+                "date_modified": "2022-02-04T13:32:42",
+                "date_modified_gmt": "2022-02-04T13:32:42",
+                "src": "/src/img/product/2.jpg",
+                "name": "www-kominek-powietrzny-zuzia-16-pf-1-960-960-1-0-0",
+                "alt": "Камінна топка Kratki ZUZIA 16 DG"
+            },
+            {
+                "id": 656,
+                "date_created": "2022-02-02T23:42:56",
+                "date_created_gmt": "2022-02-02T23:42:56",
+                "date_modified": "2022-02-04T13:32:42",
+                "date_modified_gmt": "2022-02-04T13:32:42",
+                "src": "/src/img/product/3.jpg",
+                "name": "www-kominek-powietrzny-zuzia-16-pf-1-960-960-1-0-0",
+                "alt": "Камінна топка Kratki ZUZIA 16 DG"
+            },
+            {
+                "id": 656,
+                "date_created": "2022-02-02T23:42:56",
+                "date_created_gmt": "2022-02-02T23:42:56",
+                "date_modified": "2022-02-04T13:32:42",
+                "date_modified_gmt": "2022-02-04T13:32:42",
+                "src": "/src/img/product/4.jpg",
+                "name": "www-kominek-powietrzny-zuzia-16-pf-1-960-960-1-0-0",
+                "alt": "Камінна топка Kratki ZUZIA 16 DG"
+            },
+            {
+                "id": 656,
+                "date_created": "2022-02-02T23:42:56",
+                "date_created_gmt": "2022-02-02T23:42:56",
+                "date_modified": "2022-02-04T13:32:42",
+                "date_modified_gmt": "2022-02-04T13:32:42",
+                "src": "/src/img/product/5.png",
+                "name": "www-kominek-powietrzny-zuzia-16-pf-1-960-960-1-0-0",
+                "alt": "Камінна топка Kratki ZUZIA 16 DG"
+            }
+        ],
+        "attributes": [
+            {
+                "id": 17,
+                "name": "вид-палива",
+                "position": 1,
+                "visible": true,
+                "variation": true,
+                "options": ["Деревина листяних порід з вмістом вологи ≤20%"]
+            },
+            {
+                "id": 18,
+                "name": "тип-скла",
+                "position": 8,
+                "visible": true,
+                "variation": true,
+                "options": ["пряме"]
+            },
+            {
+                "id": 0,
+                "name": "мінімальна-активна-площа-решітки-на-в",
+                "position": 16,
+                "visible": true,
+                "variation": true,
+                "options": ["≥1000"]
+            },
+            {
+                "id": 19,
+                "name": "підвід-повітря",
+                "position": 19,
+                "visible": true,
+                "variation": true,
+                "options": ["Ні"]
+            },
+            {
+                "id": 20,
+                "name": "попельник",
+                "position": 21,
+                "visible": true,
+                "variation": true,
+                "options": ["Так"]
+            },
+            {
+                "id": 21,
+                "name": "подвійне-скло",
+                "position": 22,
+                "visible": true,
+                "variation": true,
+                "options": ["Так"]
+            },
+            {
+                "id": 22,
+                "name": "особливості",
+                "position": 23,
+                "visible": true,
+                "variation": true,
+                "options": ["Тривале горіння; З шибером"]
+            },
+            {
+                "id": 23,
+                "name": "розміщення",
+                "position": 24,
+                "visible": true,
+                "variation": true,
+                "options": ["Вбудоване"]
+            },
+            {
+                "id": 24,
+                "name": "розташування",
+                "position": 25,
+                "visible": true,
+                "variation": true,
+                "options": ["Класичне"]
+            },
+            {
+                "id": 13,
+                "name": "стиль",
+                "position": 26,
+                "visible": true,
+                "variation": true,
+                "options": ["Класичний"]
+            },
+            {
+                "id": 14,
+                "name": "тип-топки",
+                "position": 27,
+                "visible": true,
+                "variation": true,
+                "options": ["З повітряним контуром"]
+            },
+            {
+                "id": 15,
+                "name": "форма",
+                "position": 28,
+                "visible": true,
+                "variation": true,
+                "options": ["З одним фасадом"]
+            },
+            {
+                "id": 25,
+                "name": "головне-паливо",
+                "position": 29,
+                "visible": true,
+                "variation": true,
+                "options": ["Дерево; Тверде паливо"]
+            },
+            {
+                "id": 26,
+                "name": "колекція",
+                "position": 30,
+                "visible": true,
+                "variation": true,
+                "options": ["Zuzia"]
+            }
+        ],
+        "drawing": "/src/img/product/drawing.jpg",
+        "default_attributes": [],
+        "variations": [],
+        "grouped_products": [],
+        "menu_order": 0,
+        "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi>1222,00&nbsp;<span class=\"woocommerce-Price-currencySymbol\">&euro;</span></bdi></span>",
+        "related_ids": [695, 663, 649, 711, 652],
+        "meta_data": [
+            {
+                "id": 164344,
+                "key": "_wp_page_template",
+                "value": "default"
+            },
+            {
+                "id": 164369,
+                "key": "_import_translations_id",
+                "value": "ZUZIA/PF/DG"
+            },
+            {
+                "id": 164370,
+                "key": "_import_language_name",
+                "value": "uk"
+            },
+            {
+                "id": 164371,
+                "key": "_link_to_vendor",
+                "value": "https://kratki.ua/zuzia-16-dg"
+            }
+        ],
+        "stock_status": "instock",
+        "has_options": false,
+        "lang": "uk",
+        "translations": {
+            "uk": 10247,
+            "ru": 7497
+        },
+        "pll_sync_post": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "http://termokamin.local/wp-json/wc/v3/products/10247"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "http://termokamin.local/wp-json/wc/v3/products"
+                }
+            ]
+        }
+    }
+}

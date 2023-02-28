@@ -1,0 +1,27 @@
+@import "tailwindcss/base";
+@import "./base.css";
+
+@import "tailwindcss/components";
+@import "./components.css";
+
+@import "tailwindcss/utilities";
+
+body .wp-block {
+    max-width: 100%;
+}
+.is-root-container.block-editor-block-list__layout {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+body {
+    overflow-x: hidden;
+}
+.edit-post-visual-editor__post-title-wrapper {
+    max-width: 1170px;
+    margin: 50px auto;
+    font-weight: 900;
+    font-family: 'Fira Sans';
+    font-size: 60px;
+    line-height: 74px;
+    @apply first-letter:text-red-core;
+}

@@ -1,0 +1,137 @@
+{{>header}}
+<section class="section relative bg-[url(./src/img/bg-index.png)] bg-no-repeat bg-cover">
+	<div class="absolute min-h-screen top-0 left-0 px-5 z-0 w-full h-full">
+		<div class="grid-lines relative sm:container max-w-screen-lg w-full h-full flex justify-between px-3">
+                    <span data-content="01" class="w-px bg-white bg-opacity-5 h-full relative
+                    before:content-[attr(data-content)] before:absolute before:top-[10%] before:opacity-20 before:left-1 before:font-roboto before:text-xs before:font-bold
+                     after:content-[attr(data-content)] after:absolute after:bottom-[10%] after:opacity-20 after:left-1 after:font-roboto after:text-xs after:font-bold"></span>
+			<span data-content="02" class="w-px bg-white bg-opacity-5 h-full relative
+                    before:content-[attr(data-content)] before:absolute before:top-[10%] before:opacity-20 before:left-1 before:font-roboto before:text-xs before:font-bold
+                     after:content-[attr(data-content)] after:absolute after:bottom-[10%] after:opacity-20 after:left-1 after:font-roboto after:text-xs after:font-bold"></span>
+			<span data-content="03" class="w-px bg-white bg-opacity-5 h-full relative
+                    before:content-[attr(data-content)] before:absolute before:top-[10%] before:opacity-20 before:left-1 before:font-roboto before:text-xs before:font-bold
+                     after:content-[attr(data-content)] after:absolute after:bottom-[10%] after:opacity-20 after:left-1 after:font-roboto after:text-xs after:font-bold"></span>
+			<span data-content="04" class="w-px bg-white bg-opacity-5 h-full relative
+                    before:content-[attr(data-content)] before:absolute before:top-[10%] before:opacity-20 before:left-1 before:font-roboto before:text-xs before:font-bold
+                     after:content-[attr(data-content)] after:absolute after:bottom-[10%] after:opacity-20 after:left-1 after:font-roboto after:text-xs after:font-bold"></span>
+			<span data-content="05" class="w-px bg-white bg-opacity-5 h-full relative
+                    before:content-[attr(data-content)] before:absolute before:top-[10%] before:opacity-20 before:left-1 before:font-roboto before:text-xs before:font-bold
+                     after:content-[attr(data-content)] after:absolute after:bottom-[10%] after:opacity-20 after:left-1 after:font-roboto after:text-xs after:font-bold"></span>
+		</div>
+	</div>
+	<div class="relative sm:container px-5 xl:max-w-screen-lg">
+		<div class="relative z-10 pt-24">
+			<h1 data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000"
+				class="font-black text-2xl xs:text-3xl sm:text-5xl md:text-6xl">Проекты</h1>
+			<div class="project-categories mt-6 sm:mt-10 flex items-center gap-x-10 gap-y-4 flex-wrap">
+				<button type="button" data-category-filter="all" class="bg-white text-core-black px-1.5 text-sm uppercase hover:bg-white hover:text-core-black">Все проекты</button>
+				<button type="button" data-category-filter="branding" class="px-1.5 text-sm uppercase hover:bg-white hover:text-core-black">Брендинг</button>
+				<button type="button" data-category-filter="mobile-apps" class="px-1.5 text-sm uppercase hover:bg-white hover:text-core-black">Мобильные приложения</button>
+				<button type="button" data-category-filter="sites" class="px-1.5 text-sm uppercase hover:bg-white hover:text-core-black">Сайты</button>
+				<button type="button" data-category-filter="complex-apps" class="px-1.5 text-sm uppercase hover:bg-white hover:text-core-black">Комплексные решения</button>
+			</div>
+		</div>
+	</div>
+	<div class="relative mt-8 sm:mt-10 pb-24 z-30">
+		<div class="swiper projects-swiper-slider">
+			<div class="swiper-wrapper">
+				<div data-category-item="sites" class="swiper-slide block w-full flex flex-col max-w-screen-sm">
+					<a href="#">
+						<img src="./src/img/img-project.png" class="h-44 sm:h-80 w-full object-cover" alt="project">
+					</a>
+					<div class="w-full flex flex-col sm:flex-row sm:items-center justify-between gap-5 pt-6 sm:pt-8 pb-4 sm:pb-6 px-4 sm:px-7 bg-white text-core-black">
+						<a href="#"><h2 class="text-xl font-bold line-clamp-2">Sites</h2></a>
+						<a href="#" class="flex-none ml-auto btn-primary group before:bg-black flex items-center justify-between gap-x-5">
+							<span>Подробнее</span><span class="font-icon icon-arrow_forward group-hover:translate-x-1 transition-transform duration-300 text-xl"></span></a>
+					</div>
+				</div>
+				<div data-category-item="branding" class="swiper-slide block w-full flex flex-col max-w-screen-sm">
+					<a href="#">
+						<img src="./src/img/img-project.png" class="h-44 sm:h-80 w-full object-cover" alt="project">
+					</a>
+					<div class="w-full flex flex-col sm:flex-row sm:items-center justify-between gap-5 pt-6 sm:pt-8 pb-4 sm:pb-6 px-4 sm:px-7 bg-white text-core-black">
+						<a href="#"><h2 class="text-xl font-bold line-clamp-2">Branding</h2></a>
+						<a href="#" class="flex-none ml-auto btn-primary group before:bg-black flex items-center justify-between gap-x-5">
+							<span>Подробнее</span><span class="font-icon icon-arrow_forward group-hover:translate-x-1 transition-transform duration-300 text-xl"></span></a>
+					</div>
+				</div>
+				<div data-category-item="mobile-apps" class="swiper-slide block w-full flex flex-col max-w-screen-sm">
+					<a href="#">
+						<img src="./src/img/img-project.png" class="h-44 sm:h-80 w-full object-cover" alt="project">
+					</a>
+					<div class="w-full flex flex-col sm:flex-row sm:items-center justify-between gap-5 pt-6 sm:pt-8 pb-4 sm:pb-6 px-4 sm:px-7 bg-white text-core-black">
+						<a href="#"><h2 class="text-xl font-bold line-clamp-2">Mobile Apps</h2></a>
+						<a href="#" class="flex-none ml-auto btn-primary group before:bg-black flex items-center justify-between gap-x-5">
+							<span>Подробнее</span><span class="font-icon icon-arrow_forward group-hover:translate-x-1 transition-transform duration-300 text-xl"></span></a>
+					</div>
+				</div>
+				<div data-category-item="complex-apps" class="swiper-slide block w-full flex flex-col max-w-screen-sm">
+					<a href="#">
+						<img src="./src/img/img-project.png" class="h-44 sm:h-80 w-full object-cover" alt="project">
+					</a>
+					<div class="w-full flex flex-col sm:flex-row sm:items-center justify-between gap-5 pt-6 sm:pt-8 pb-4 sm:pb-6 px-4 sm:px-7 bg-white text-core-black">
+						<a href="#"><h2 class="text-xl font-bold line-clamp-2">Complex Apps</h2></a>
+						<a href="#" class="flex-none ml-auto btn-primary group before:bg-black flex items-center justify-between gap-x-5">
+							<span>Подробнее</span><span class="font-icon icon-arrow_forward group-hover:translate-x-1 transition-transform duration-300 text-xl"></span></a>
+					</div>
+				</div>
+				<div data-category-item="branding" class="swiper-slide block w-full flex flex-col max-w-screen-sm">
+					<a href="#">
+						<img src="./src/img/img-project.png" class="h-44 sm:h-80 w-full object-cover" alt="project">
+					</a>
+					<div class="w-full flex flex-col sm:flex-row sm:items-center justify-between gap-5 pt-6 sm:pt-8 pb-4 sm:pb-6 px-4 sm:px-7 bg-white text-core-black">
+						<a href="#"><h2 class="text-xl font-bold line-clamp-2">Branding 2</h2></a>
+						<a href="#" class="flex-none ml-auto btn-primary group before:bg-black flex items-center justify-between gap-x-5">
+							<span>Подробнее</span><span class="font-icon icon-arrow_forward group-hover:translate-x-1 transition-transform duration-300 text-xl"></span></a>
+					</div>
+				</div>
+				<div data-category-item="branding" class="swiper-slide block w-full flex flex-col max-w-screen-sm">
+					<a href="#">
+						<img src="./src/img/img-project.png" class="h-44 sm:h-80 w-full object-cover" alt="project">
+					</a>
+					<div class="w-full flex flex-col sm:flex-row sm:items-center justify-between gap-5 pt-6 sm:pt-8 pb-4 sm:pb-6 px-4 sm:px-7 bg-white text-core-black">
+						<a href="#"><h2 class="text-xl font-bold line-clamp-2">Branding 3</h2></a>
+						<a href="#" class="flex-none ml-auto btn-primary group before:bg-black flex items-center justify-between gap-x-5">
+							<span>Подробнее</span><span class="font-icon icon-arrow_forward group-hover:translate-x-1 transition-transform duration-300 text-xl"></span></a>
+					</div>
+				</div>
+				<div data-category-item="mobile-apps" class="swiper-slide block w-full flex flex-col max-w-screen-sm">
+					<a href="#">
+						<img src="./src/img/img-project.png" class="h-44 sm:h-80 w-full object-cover" alt="project">
+					</a>
+					<div class="w-full flex flex-col sm:flex-row sm:items-center justify-between gap-5 pt-6 sm:pt-8 pb-4 sm:pb-6 px-4 sm:px-7 bg-white text-core-black">
+						<a href="#"><h2 class="text-xl font-bold line-clamp-2">Mobile Apps 2</h2></a>
+						<a href="#" class="flex-none ml-auto btn-primary group before:bg-black flex items-center justify-between gap-x-5">
+							<span>Подробнее</span><span class="font-icon icon-arrow_forward group-hover:translate-x-1 transition-transform duration-300 text-xl"></span></a>
+					</div>
+				</div>
+				<div data-category-item="complex-apps" class="swiper-slide block w-full flex flex-col max-w-screen-sm">
+					<a href="#">
+						<img src="./src/img/img-project.png" class="h-44 sm:h-80 w-full object-cover" alt="project">
+					</a>
+					<div class="w-full flex flex-col sm:flex-row sm:items-center justify-between gap-5 pt-6 sm:pt-8 pb-4 sm:pb-6 px-4 sm:px-7 bg-white text-core-black">
+						<a href="#"><h2 class="text-xl font-bold line-clamp-2">Complex Apps 3</h2></a>
+						<a href="#" class="flex-none ml-auto btn-primary group before:bg-black flex items-center justify-between gap-x-5">
+							<span>Подробнее</span><span class="font-icon icon-arrow_forward group-hover:translate-x-1 transition-transform duration-300 text-xl"></span></a>
+					</div>
+				</div>
+				<div data-category-item="sites" class="swiper-slide block w-full flex flex-col max-w-screen-sm">
+					<a href="#">
+						<img src="./src/img/img-project.png" class="h-44 sm:h-80 w-full object-cover" alt="project">
+					</a>
+					<div class="w-full flex flex-col sm:flex-row sm:items-center justify-between gap-5 pt-6 sm:pt-8 pb-4 sm:pb-6 px-4 sm:px-7 bg-white text-core-black">
+						<a href="#"><h2 class="text-xl font-bold line-clamp-2">IMID – Visual identity restyling</h2></a>
+						<a href="#" class="flex-none ml-auto btn-primary group before:bg-black flex items-center justify-between gap-x-5">
+							<span>Подробнее</span><span class="font-icon icon-arrow_forward group-hover:translate-x-1 transition-transform duration-300 text-xl"></span></a>
+					</div>
+				</div>
+			</div>
+			<div class="mt-8 sm:container xl:max-w-screen-lg px-3 flex items-center gap-8">
+				<button type="button" class="projects-swiper-button-prev flex items-center justify-center h-5 w-5 rotate-180 cursor-pointer"><span class="font-icon icon-arrow_forward text-xl text-white"></span></button>
+				<button type="button" class="projects-swiper-button-next flex items-center justify-center h-5 w-5 cursor-pointer"><span class="font-icon icon-arrow_forward text-xl text-white"></span></button>
+			</div>
+		</div>
+	</div>
+</section>
+{{>footer-block}}
+{{>footer}}

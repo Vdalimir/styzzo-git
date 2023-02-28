@@ -1,0 +1,36 @@
+{
+    "popularCars": [
+        {
+            "name": "MAZDA 6 TOURING 2020",
+            "img":"fordd.jpeg"
+        },
+        {
+            "name": "BMW M3 2018",
+            "img": "fordd2.png"
+        },
+        {
+            "name": "MERCEDES S500",
+            "img": "fordd3.jpeg"
+        },
+        {
+            "name": "NISSAN SKYLINE GTR 2019",
+            "img": "fordd4.png"
+        },
+        {
+            "name": "MAZDA 6 TOURING 2020",
+            "img": "fordd5.png"
+        },
+        {
+            "name": "BMW M3 2018",
+            "img": "fordd.jpeg"
+        },
+        {
+            "name": "MERCEDES S500",
+            "img": "fordd.jpeg"
+        },
+        {
+            "name": "MAZDA 6 TOURING 2020",
+            "img": "fordd.jpeg"
+        }
+    ]
+}

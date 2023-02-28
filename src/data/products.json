@@ -1,0 +1,1413 @@
+{
+    "products": [
+        {
+            "id": 10236,
+            "name": "Трійник стальний 180/45",
+            "slug": "kratki-tr180-45-2",
+            "permalink": "http://termokamin.local/p/kratki-tr180-45-2/",
+            "date_created": "2022-02-04T13:32:31",
+            "date_created_gmt": "2022-02-04T13:32:31",
+            "date_modified": "2022-02-04T13:32:35",
+            "date_modified_gmt": "2022-02-04T13:32:35",
+            "type": "simple",
+            "status": "publish",
+            "featured": true,
+            "catalog_visibility": "visible",
+            "description": "<p><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"></p>\n<p>Трійник стальний для підключення камінних топок&nbsp;та печей на дровах до існуючих димових каналів.</p>\n<p>Відповідає всім польським та європейським нормам, забезпечує безпеку та максимальну ефективність і комфорт.</p>\n<p>З'єднання труб полягає у всуванні одного елемента в інший.</p>\n<h3>Характеристика:</h3>\n<p>- товщина сталі: 2 мм</p>\n<p>- діаметр: 180 мм</p>\n<p>- кут: 45°</p>\n<p>- температуростійкість: 1000°C</p>\n<p>- матеріал: сталевий метал</p>\n<p>- покриті чорною жаростійкою фарбою</p>\n<p>- зварювані плазмово.</p>\n<p></span></span></p>\n",
+            "short_description": "<p>Трійник стальний&amp;nbsp;до кута 45°, діаметр: 180 мм для підключення камінних топок та печей на дровах до існуючих димових каналів.</p>\n",
+            "sku": "TR180/45",
+            "price": "36.3",
+            "regular_price": "36.3",
+            "sale_price": "30.2",
+            "date_on_sale_from": null,
+            "date_on_sale_from_gmt": null,
+            "date_on_sale_to": null,
+            "date_on_sale_to_gmt": null,
+            "on_sale": false,
+            "purchasable": true,
+            "total_sales": 0,
+            "virtual": false,
+            "downloadable": false,
+            "downloads": [],
+            "download_limit": -1,
+            "download_expiry": -1,
+            "external_url": "",
+            "button_text": "",
+            "tax_status": "none",
+            "tax_class": "",
+            "manage_stock": false,
+            "stock_quantity": null,
+            "backorders": "no",
+            "backorders_allowed": false,
+            "backordered": false,
+            "low_stock_amount": null,
+            "sold_individually": false,
+            "weight": "3.5",
+            "dimensions": {
+                "length": "",
+                "width": "",
+                "height": ""
+            },
+            "shipping_required": true,
+            "shipping_taxable": false,
+            "shipping_class": "",
+            "shipping_class_id": 0,
+            "reviews_allowed": true,
+            "average_rating": "0.00",
+            "rating_count": 5,
+            "upsell_ids": [],
+            "cross_sell_ids": [],
+            "parent_id": 0,
+            "purchase_note": "",
+            "categories": [
+                {
+                    "id": 6557,
+                    "name": "Аксесуари",
+                    "slug": "accessories"
+                }
+            ],
+            "tags": [],
+            "images": [
+                {
+                    "id": 7460,
+                    "date_created": "2022-02-03T05:16:38",
+                    "date_created_gmt": "2022-02-03T05:16:38",
+                    "date_modified": "2022-02-04T13:32:35",
+                    "date_modified_gmt": "2022-02-04T13:32:35",
+                    "src": "/src/img/products/truba45.png",
+                    "name": "truba45",
+                    "alt": "Трійник стальний 200/45"
+                }
+            ],
+            "attributes": [],
+            "default_attributes": [],
+            "variations": [],
+            "grouped_products": [],
+            "menu_order": 0,
+            "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi>36,30&nbsp;<span class=\"woocommerce-Price-currencySymbol\">&euro;</span></bdi></span>",
+            "related_ids": [655, 674, 657, 689, 719],
+            "meta_data": [
+                {
+                    "id": 164047,
+                    "key": "_wp_page_template",
+                    "value": "default"
+                },
+                {
+                    "id": 164068,
+                    "key": "_import_translations_id",
+                    "value": "TR180/45"
+                },
+                {
+                    "id": 164069,
+                    "key": "_import_language_name",
+                    "value": "uk"
+                },
+                {
+                    "id": 164070,
+                    "key": "_link_to_vendor",
+                    "value": "https://kratki.ua/trijnyk-stalnyj-180-45"
+                }
+            ],
+            "stock_status": "instock",
+            "has_options": false,
+            "lang": "uk",
+            "translations": {
+                "ru": 7464,
+                "uk": 10236
+            },
+            "pll_sync_post": [],
+            "_links": {
+                "self": [
+                    {
+                        "href": "http://termokamin.local/wp-json/wc/v3/products/10236"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "http://termokamin.local/wp-json/wc/v3/products"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 10237,
+            "name": "Трійник стальний 200/45",
+            "slug": "kratki-tr200-45-2",
+            "permalink": "http://termokamin.local/p/kratki-tr200-45-2/",
+            "date_created": "2022-02-04T13:32:31",
+            "date_created_gmt": "2022-02-04T13:32:31",
+            "date_modified": "2022-02-04T13:32:35",
+            "date_modified_gmt": "2022-02-04T13:32:35",
+            "type": "simple",
+            "status": "publish",
+            "featured": true,
+            "catalog_visibility": "visible",
+            "description": "<p><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"></p>\n<p>Трійник стальний для підключення камінних топок&nbsp;та печей на дровах до існуючих димових каналів.</p>\n<p>Відповідає всім польським та європейським нормам, забезпечує безпеку та максимальну ефективність і комфорт.</p>\n<p>З'єднання труб полягає у всуванні одного елемента в інший.</p>\n<h3>Характеристика:</h3>\n<p>- товщина сталі: 2 мм</p>\n<p>- діаметр: 200 мм</p>\n<p>- кут: 45°</p>\n<p>- температуростійкість: 1000°C</p>\n<p>- матеріал: сталевий метал</p>\n<p>- покриті чорною жаростійкою фарбою</p>\n<p>- зварювані плазмово.</p>\n<p></span></span></p>\n",
+            "short_description": "<p>Трійник стальний&amp;nbsp;до кута 45°, діаметр: 200 мм для підключення камінних топок та печей на дровах до існуючих димових каналів.</p>\n",
+            "sku": "TR200/45",
+            "price": "36.3",
+            "regular_price": "36.3",
+            "sale_price": "",
+            "date_on_sale_from": null,
+            "date_on_sale_from_gmt": null,
+            "date_on_sale_to": null,
+            "date_on_sale_to_gmt": null,
+            "on_sale": false,
+            "purchasable": true,
+            "total_sales": 0,
+            "virtual": false,
+            "downloadable": false,
+            "downloads": [],
+            "download_limit": -1,
+            "download_expiry": -1,
+            "external_url": "",
+            "button_text": "",
+            "tax_status": "none",
+            "tax_class": "",
+            "manage_stock": false,
+            "stock_quantity": null,
+            "backorders": "no",
+            "backorders_allowed": false,
+            "backordered": false,
+            "low_stock_amount": null,
+            "sold_individually": false,
+            "weight": "3.5",
+            "dimensions": {
+                "length": "",
+                "width": "",
+                "height": ""
+            },
+            "shipping_required": true,
+            "shipping_taxable": false,
+            "shipping_class": "",
+            "shipping_class_id": 0,
+            "reviews_allowed": true,
+            "average_rating": "0.00",
+            "rating_count": 0,
+            "upsell_ids": [],
+            "cross_sell_ids": [],
+            "parent_id": 0,
+            "purchase_note": "",
+            "categories": [
+                {
+                    "id": 6557,
+                    "name": "Аксесуари",
+                    "slug": "accessories"
+                }
+            ],
+            "tags": [],
+            "images": [
+                {
+                    "id": 7460,
+                    "date_created": "2022-02-03T05:16:38",
+                    "date_created_gmt": "2022-02-03T05:16:38",
+                    "date_modified": "2022-02-04T13:32:35",
+                    "date_modified_gmt": "2022-02-04T13:32:35",
+                    "src": "/src/img/products/truba45.png",
+                    "name": "truba45",
+                    "alt": "Трійник стальний 200/45"
+                }
+            ],
+            "attributes": [],
+            "default_attributes": [],
+            "variations": [],
+            "grouped_products": [],
+            "menu_order": 0,
+            "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi>36,30&nbsp;<span class=\"woocommerce-Price-currencySymbol\">&euro;</span></bdi></span>",
+            "related_ids": [697, 665, 719, 684, 732],
+            "meta_data": [
+                {
+                    "id": 164073,
+                    "key": "_wp_page_template",
+                    "value": "default"
+                },
+                {
+                    "id": 164094,
+                    "key": "_import_translations_id",
+                    "value": "TR200/45"
+                },
+                {
+                    "id": 164095,
+                    "key": "_import_language_name",
+                    "value": "uk"
+                },
+                {
+                    "id": 164096,
+                    "key": "_link_to_vendor",
+                    "value": "https://kratki.ua/trijnyk-stalnyj-200-45"
+                }
+            ],
+            "stock_status": "instock",
+            "has_options": false,
+            "lang": "uk",
+            "translations": {
+                "ru": 7465,
+                "uk": 10237
+            },
+            "pll_sync_post": [],
+            "_links": {
+                "self": [
+                    {
+                        "href": "http://termokamin.local/wp-json/wc/v3/products/10237"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "http://termokamin.local/wp-json/wc/v3/products"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 10238,
+            "name": "Отвір протиконденсатний Ø 150",
+            "slug": "kratki-kryza-kominowa-150-stal-2",
+            "permalink": "http://termokamin.local/p/kratki-kryza-kominowa-150-stal-2/",
+            "date_created": "2022-02-04T13:32:31",
+            "date_created_gmt": "2022-02-04T13:32:31",
+            "date_modified": "2022-02-04T13:32:35",
+            "date_modified_gmt": "2022-02-04T13:32:35",
+            "type": "simple",
+            "status": "publish",
+            "featured": true,
+            "catalog_visibility": "visible",
+            "description": "<p><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"></p>\n<p>Отвір протиконденсатний для сталевих труб ø 150.</p>\n<h3>Принцип дії:</h3>\n<p>Отвір має конструкцію з подвійною оболонкою і герметизує вихід з димохідної труби каміна в димохід.</p>\n<p>Завдяки цьому конденсат, що утворюється в результаті зміни температури в димоході, надходить усередину каміна, де він нагрівається і перетворюється в пару.</p>\n<p>Вода, що стікає з каміна, скрапуючи, не витікає за межі камінної системи, не викликаючи корозії та ілюзії протікання зварних швів каміна.</p>\n<p>УВАГА! Отвір підходить для труб з чорного металу 2 мм.</p>\n<p></span></span></p>\n",
+            "short_description": "<p>Отвір протиконденсатний для сталевих труб ø 150.</p>\n",
+            "sku": "KRYZA/KOMINOWA/150/STAL",
+            "price": "39.6",
+            "regular_price": "39.6",
+            "sale_price": "",
+            "date_on_sale_from": null,
+            "date_on_sale_from_gmt": null,
+            "date_on_sale_to": null,
+            "date_on_sale_to_gmt": null,
+            "on_sale": false,
+            "purchasable": true,
+            "total_sales": 0,
+            "virtual": false,
+            "downloadable": false,
+            "downloads": [],
+            "download_limit": -1,
+            "download_expiry": -1,
+            "external_url": "",
+            "button_text": "",
+            "tax_status": "none",
+            "tax_class": "",
+            "manage_stock": false,
+            "stock_quantity": null,
+            "backorders": "no",
+            "backorders_allowed": false,
+            "backordered": false,
+            "low_stock_amount": null,
+            "sold_individually": false,
+            "weight": "0.7",
+            "dimensions": {
+                "length": "",
+                "width": "",
+                "height": ""
+            },
+            "shipping_required": true,
+            "shipping_taxable": false,
+            "shipping_class": "",
+            "shipping_class_id": 0,
+            "reviews_allowed": true,
+            "average_rating": "0.00",
+            "rating_count": 0,
+            "upsell_ids": [],
+            "cross_sell_ids": [],
+            "parent_id": 0,
+            "purchase_note": "",
+            "categories": [
+                {
+                    "id": 6557,
+                    "name": "Аксесуари",
+                    "slug": "accessories"
+                }
+            ],
+            "tags": [],
+            "images": [
+                {
+                    "id": 5528,
+                    "date_created": "2022-02-03T03:46:55",
+                    "date_created_gmt": "2022-02-03T03:46:55",
+                    "date_modified": "2022-02-04T13:32:35",
+                    "date_modified_gmt": "2022-02-04T13:32:35",
+                    "src": "/src/img/products/kryzakamin.png",
+                    "name": "kryzakamin",
+                    "alt": "Отвір протиконденсатний Ø 150"
+                }
+            ],
+            "attributes": [],
+            "default_attributes": [],
+            "variations": [],
+            "grouped_products": [],
+            "menu_order": 0,
+            "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi>39,60&nbsp;<span class=\"woocommerce-Price-currencySymbol\">&euro;</span></bdi></span>",
+            "related_ids": [663, 665, 695, 657, 732],
+            "meta_data": [
+                {
+                    "id": 164099,
+                    "key": "_wp_page_template",
+                    "value": "default"
+                },
+                {
+                    "id": 164120,
+                    "key": "_import_translations_id",
+                    "value": "KRYZA/KOMINOWA/150/STAL"
+                },
+                {
+                    "id": 164121,
+                    "key": "_import_language_name",
+                    "value": "uk"
+                },
+                {
+                    "id": 164122,
+                    "key": "_link_to_vendor",
+                    "value": "https://kratki.ua/otvir-protykondensatnyj-o-150"
+                }
+            ],
+            "stock_status": "instock",
+            "has_options": false,
+            "lang": "uk",
+            "translations": {
+                "uk": 10238,
+                "ru": 7466
+            },
+            "pll_sync_post": [],
+            "_links": {
+                "self": [
+                    {
+                        "href": "http://termokamin.local/wp-json/wc/v3/products/10238"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "http://termokamin.local/wp-json/wc/v3/products"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 10239,
+            "name": "Садовий пальник Kratki QUADRUM",
+            "slug": "kratki-quadrum-2",
+            "permalink": "http://termokamin.local/p/kratki-quadrum-2/",
+            "date_created": "2022-02-04T13:32:31",
+            "date_created_gmt": "2022-02-04T13:32:31",
+            "date_modified": "2022-02-04T13:32:36",
+            "date_modified_gmt": "2022-02-04T13:32:36",
+            "type": "simple",
+            "status": "publish",
+            "featured": true,
+            "catalog_visibility": "visible",
+            "description": "<p><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"></p>\n<p>Садовий пальник - ефективний спосіб захистити газон, терасу, бруківку від наслідків горіння вогню. Садовий пальник - це також свобода розпалювати багаття в будь-якому місці саду, не боячись спалити велику чорну пляму.</p>\n<p>QUADRUM - оригінальна прикраса простору, яка додасть йому виразного характеру. Це спосіб проведення часу, який гарантує, що моменти з вашими коханими стануть незабутніми.</p>\n<h3>Гарантія якості</h3>\n<p>Пальник виготовлений з високоякісних матеріалів. Процес виробництва здійснюється за світовими стандартами. Ми рекомендуємо спалювати суху деревину і лише натуральне розпалювання.</p>\n<p>Садовий пальник QUADRUM:</p>\n<ul>\n<li>природне тепло від традиційної деревини,</li>\n<li>стійкий до зовнішніх факторів</li>\n<li>можна використовувати цілий рік,</li>\n<li>нержавіючий рушт та пальник,</li>\n<li>функціональність та професіоналізм</li>\n<li>ідеально підходить для приватних та комерційних приміщень,</li>\n<li>практичні рішення простота використання та чищення,</li>\n<li>сучасний стиль унікальна обробка,</li>\n<li>спосіб провести час з родиною та друзями.</li>\n</ul>\n<p></span></span></p>\n",
+            "short_description": "<p>QUADRUM &#8211; це чудовий професійний садовий пальник з дров’яним пальником. Він також прекрасно підійде як садовий камін &#8211; ефективне джерело тепла прохолодними вечорами, а також стильний і природний спосіб освітлити сад.</p>\n",
+            "sku": "QUADRUM",
+            "price": "475",
+            "regular_price": "475",
+            "sale_price": "",
+            "date_on_sale_from": null,
+            "date_on_sale_from_gmt": null,
+            "date_on_sale_to": null,
+            "date_on_sale_to_gmt": null,
+            "on_sale": false,
+            "purchasable": true,
+            "total_sales": 0,
+            "virtual": false,
+            "downloadable": false,
+            "downloads": [],
+            "download_limit": -1,
+            "download_expiry": -1,
+            "external_url": "",
+            "button_text": "",
+            "tax_status": "none",
+            "tax_class": "",
+            "manage_stock": false,
+            "stock_quantity": null,
+            "backorders": "no",
+            "backorders_allowed": false,
+            "backordered": false,
+            "low_stock_amount": null,
+            "sold_individually": false,
+            "weight": "95.18",
+            "dimensions": {
+                "length": "",
+                "width": "",
+                "height": ""
+            },
+            "shipping_required": true,
+            "shipping_taxable": false,
+            "shipping_class": "",
+            "shipping_class_id": 0,
+            "reviews_allowed": true,
+            "average_rating": "0.00",
+            "rating_count": 0,
+            "upsell_ids": [],
+            "cross_sell_ids": [],
+            "parent_id": 0,
+            "purchase_note": "",
+            "categories": [
+                {
+                    "id": 6557,
+                    "name": "Аксесуари",
+                    "slug": "accessories"
+                }
+            ],
+            "tags": [],
+            "images": [
+                {
+                    "id": 7468,
+                    "date_created": "2022-02-03T05:16:45",
+                    "date_created_gmt": "2022-02-03T05:16:45",
+                    "date_modified": "2022-02-04T13:32:36",
+                    "date_modified_gmt": "2022-02-04T13:32:36",
+                    "src": "/src/img/products/quadrum1.png",
+                    "name": "quadrum1",
+                    "alt": "Садовий пальник Kratki QUADRUM"
+                },
+                {
+                    "id": 7469,
+                    "date_created": "2022-02-03T05:16:47",
+                    "date_created_gmt": "2022-02-03T05:16:47",
+                    "date_modified": "2022-02-03T05:16:47",
+                    "date_modified_gmt": "2022-02-03T05:16:47",
+                    "src": "/src/img/products/quadrum2.png",
+                    "name": "quadrum2",
+                    "alt": ""
+                },
+                {
+                    "id": 7470,
+                    "date_created": "2022-02-03T05:16:50",
+                    "date_created_gmt": "2022-02-03T05:16:50",
+                    "date_modified": "2022-02-03T05:16:50",
+                    "date_modified_gmt": "2022-02-03T05:16:50",
+                    "src": "/src/img/products/quadrum3.png",
+                    "name": "quadrum3",
+                    "alt": ""
+                }
+            ],
+            "attributes": [
+                {
+                    "id": 17,
+                    "name": "вид-палива",
+                    "position": 1,
+                    "visible": true,
+                    "variation": true,
+                    "options": ["Деревина листяних порід з вмістом вологи ≤20%"]
+                }
+            ],
+            "default_attributes": [],
+            "variations": [],
+            "grouped_products": [],
+            "menu_order": 0,
+            "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi>475,00&nbsp;<span class=\"woocommerce-Price-currencySymbol\">&euro;</span></bdi></span>",
+            "related_ids": [679, 660, 677, 703, 719],
+            "meta_data": [
+                {
+                    "id": 164125,
+                    "key": "_wp_page_template",
+                    "value": "default"
+                },
+                {
+                    "id": 164147,
+                    "key": "_import_translations_id",
+                    "value": "QUADRUM"
+                },
+                {
+                    "id": 164148,
+                    "key": "_import_language_name",
+                    "value": "uk"
+                },
+                {
+                    "id": 164149,
+                    "key": "_link_to_vendor",
+                    "value": "https://kratki.ua/sadovyj-palnyk-quadrum"
+                }
+            ],
+            "stock_status": "instock",
+            "has_options": false,
+            "lang": "uk",
+            "translations": {
+                "ru": 7467,
+                "uk": 10239
+            },
+            "pll_sync_post": [],
+            "_links": {
+                "self": [
+                    {
+                        "href": "http://termokamin.local/wp-json/wc/v3/products/10239"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "http://termokamin.local/wp-json/wc/v3/products"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 10240,
+            "name": "Садовий пальник Kratki QUADRUM з грилем",
+            "slug": "kratki-quadrum-bbq-2",
+            "permalink": "http://termokamin.local/p/kratki-quadrum-bbq-2/",
+            "date_created": "2022-02-04T13:32:31",
+            "date_created_gmt": "2022-02-04T13:32:31",
+            "date_modified": "2022-02-04T13:32:36",
+            "date_modified_gmt": "2022-02-04T13:32:36",
+            "type": "simple",
+            "status": "publish",
+            "featured": true,
+            "catalog_visibility": "visible",
+            "description": "<p><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"></p>\n<p>QUADRUM - це чудовий професійний садовий гриль з дров’яним вогнищем. Він поєднує все в одному. Оснащений решіткою з нержавіючої сталі, обробною дошкою/стільницею, зручними відсіками для зберігання посуду та спецій та практичним/просторим поглибленням для дерева.</p>\n<p>Він також прекрасно підійде як садовий пальник - ефективне джерело тепла прохолодними вечорами, а також стильний і природний спосіб освітлити сад.</p>\n<h3>Комфортна робота</h3>\n<p>Ви пам’ятаєте проблеми з чищенням гриля? За допомогою QUADRUM ви можете про це забути. Спеціально профільована нагрівальна плита дозволяє бруду стікати у вогнище. Після використання достатньо очистити залишки шпателем, а потім протерти вологою ганчіркою.</p>\n<p>Сталева конструкція не тільки привертає увагу, але і довговічна та стійка до атмосферних впливів. Для цього не потрібно просочення, а пальником для барбекю можна користуватися цілий рік!</p>\n<h3>Новий вимір гриля</h3>\n<p>Садовий гриль QUADRUM дозволить вам готувати чудові страви в комфортних умовах. Оснащений решіткою з нержавіючої сталі, що забезпечує традиційне приготування на грилі. Пластина навколо дров’яної печі дозволяє не тільки смажити на грилі, а й готувати, смажити, нагрівати. Це запобігає згорянню та пересиханню їжі. Їжа тут не контактує безпосередньо з димом або вогнем. Приготування страв на мангалі, обпаленому з натуральної листяної деревини, гарантує якість приготовленої їжі та унікальний аромат.</p>\n<p>QUADRUM - це не тільки ексклюзивний гриль, на якому ви можете готувати здорові страви. Це оригінальна декорація простору, яка додасть йому виразного характеру. Це спосіб проведення часу, який гарантує, що моменти з вашими коханими стануть незабутніми.</p>\n<p>Садовий гриль QUADRUM:</p>\n<ul>\n<li>гриль, приготування їжі, смаження, опалення - обширна садова кухня,</li>\n<li>ідеально приготовані та корисні страви на грилі без контакту з димом та вогнем,</li>\n<li>все в одному - приготування їжі, джерело тепла, освітлення простору,</li>\n<li>природне тепло від традиційного дерева,</li>\n<li>стійкий до зовнішніх факторів - можна використовувати цілий рік,</li>\n<li>міцний рушт та пальник,</li>\n<li>функціональність та професіоналізм - ідеально підходить для приватних та комерційних приміщень,</li>\n<li>практичні рішення - простота використання та чищення,</li>\n<li>сучасний стиль - унікальне оздоблення,</li>\n<li>спосіб провести час з родиною та друзями.</li>\n</ul>\n<p></span></span></p>\n",
+            "short_description": "<p>QUADRUM &#8211; це не тільки сучасний садовий гриль, але й повністю обладнана відкрита кухня.</p>\n",
+            "sku": "QUADRUM/BBQ",
+            "price": "753",
+            "regular_price": "753",
+            "sale_price": "",
+            "date_on_sale_from": null,
+            "date_on_sale_from_gmt": null,
+            "date_on_sale_to": null,
+            "date_on_sale_to_gmt": null,
+            "on_sale": false,
+            "purchasable": true,
+            "total_sales": 0,
+            "virtual": false,
+            "downloadable": false,
+            "downloads": [],
+            "download_limit": -1,
+            "download_expiry": -1,
+            "external_url": "",
+            "button_text": "",
+            "tax_status": "none",
+            "tax_class": "",
+            "manage_stock": false,
+            "stock_quantity": null,
+            "backorders": "no",
+            "backorders_allowed": false,
+            "backordered": false,
+            "low_stock_amount": null,
+            "sold_individually": false,
+            "weight": "95.18",
+            "dimensions": {
+                "length": "",
+                "width": "",
+                "height": ""
+            },
+            "shipping_required": true,
+            "shipping_taxable": false,
+            "shipping_class": "",
+            "shipping_class_id": 0,
+            "reviews_allowed": true,
+            "average_rating": "0.00",
+            "rating_count": 0,
+            "upsell_ids": [],
+            "cross_sell_ids": [],
+            "parent_id": 0,
+            "purchase_note": "",
+            "categories": [
+                {
+                    "id": 6557,
+                    "name": "Аксесуари",
+                    "slug": "accessories"
+                }
+            ],
+            "tags": [],
+            "images": [
+                {
+                    "id": 7472,
+                    "date_created": "2022-02-03T05:16:52",
+                    "date_created_gmt": "2022-02-03T05:16:52",
+                    "date_modified": "2022-02-04T13:32:37",
+                    "date_modified_gmt": "2022-02-04T13:32:37",
+                    "src": "/src/img/products/www_grill_ogrodowy_bbq1.png",
+                    "name": "www_grill_ogrodowy_bbq1",
+                    "alt": "Садовий пальник Kratki QUADRUM з грилем"
+                },
+                {
+                    "id": 7473,
+                    "date_created": "2022-02-03T05:16:55",
+                    "date_created_gmt": "2022-02-03T05:16:55",
+                    "date_modified": "2022-02-03T05:16:55",
+                    "date_modified_gmt": "2022-02-03T05:16:55",
+                    "src": "/src/img/products/www_grill_ogrodowy_bbq2.png",
+                    "name": "www_grill_ogrodowy_bbq2",
+                    "alt": ""
+                },
+                {
+                    "id": 7474,
+                    "date_created": "2022-02-03T05:16:59",
+                    "date_created_gmt": "2022-02-03T05:16:59",
+                    "date_modified": "2022-02-03T05:16:59",
+                    "date_modified_gmt": "2022-02-03T05:16:59",
+                    "src": "/src/img/products/www_grill_ogrodowy_bbq3.png",
+                    "name": "www_grill_ogrodowy_bbq3",
+                    "alt": ""
+                }
+            ],
+            "attributes": [
+                {
+                    "id": 17,
+                    "name": "вид-палива",
+                    "position": 1,
+                    "visible": true,
+                    "variation": true,
+                    "options": ["Деревина листяних порід з вмістом вологи ≤20%"]
+                },
+                {
+                    "id": 26,
+                    "name": "колекція",
+                    "position": 30,
+                    "visible": true,
+                    "variation": true,
+                    "options": ["Fire"]
+                }
+            ],
+            "default_attributes": [],
+            "variations": [],
+            "grouped_products": [],
+            "menu_order": 0,
+            "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi>753,00&nbsp;<span class=\"woocommerce-Price-currencySymbol\">&euro;</span></bdi></span>",
+            "related_ids": [709, 652, 724, 663, 695],
+            "meta_data": [
+                {
+                    "id": 164152,
+                    "key": "_wp_page_template",
+                    "value": "default"
+                },
+                {
+                    "id": 164174,
+                    "key": "_import_translations_id",
+                    "value": "QUADRUM/BBQ"
+                },
+                {
+                    "id": 164175,
+                    "key": "_import_language_name",
+                    "value": "uk"
+                },
+                {
+                    "id": 164176,
+                    "key": "_link_to_vendor",
+                    "value": "https://kratki.ua/palnyk-quadrum-z-grylem"
+                }
+            ],
+            "stock_status": "instock",
+            "has_options": false,
+            "lang": "uk",
+            "translations": {
+                "ru": 7471,
+                "uk": 10240
+            },
+            "pll_sync_post": [],
+            "_links": {
+                "self": [
+                    {
+                        "href": "http://termokamin.local/wp-json/wc/v3/products/10240"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "http://termokamin.local/wp-json/wc/v3/products"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 10243,
+            "name": "Перехід стальний Ø 250/180",
+            "slug": "kratki-red-s-250-180-2",
+            "permalink": "http://termokamin.local/p/kratki-red-s-250-180-2/",
+            "date_created": "2022-02-04T13:32:31",
+            "date_created_gmt": "2022-02-04T13:32:31",
+            "date_modified": "2022-02-04T13:32:39",
+            "date_modified_gmt": "2022-02-04T13:32:39",
+            "type": "simple",
+            "status": "publish",
+            "featured": true,
+            "catalog_visibility": "visible",
+            "description": "<p><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"></p>\n<p>Редуктор змінює діаметр димових проводів. Дозволяє з'єднувати труби різного перерізу.</p>\n<h3>Характеристика:</h3>\n<p>- внутрішній діаметр: 250 мм</p>\n<p>- зовнішній діаметр: 180 мм</p>\n<p>- висота: 150 мм</p>\n<p>- температуростійкість: 1000°C</p>\n<p>- матеріал: сталевий метал</p>\n<p>- покриті чорною жаростійкою фарбою.</p>\n<p></span></span></p>\n",
+            "short_description": "<p>Сталевий редуктор 2 мм ø 250/180, дозволяє з&#8217;єднувати труби різного перерізу.</p>\n",
+            "sku": "RED/S/250/180",
+            "price": "25.3",
+            "regular_price": "25.3",
+            "sale_price": "",
+            "date_on_sale_from": null,
+            "date_on_sale_from_gmt": null,
+            "date_on_sale_to": null,
+            "date_on_sale_to_gmt": null,
+            "on_sale": false,
+            "purchasable": true,
+            "total_sales": 0,
+            "virtual": false,
+            "downloadable": false,
+            "downloads": [],
+            "download_limit": -1,
+            "download_expiry": -1,
+            "external_url": "",
+            "button_text": "",
+            "tax_status": "none",
+            "tax_class": "",
+            "manage_stock": false,
+            "stock_quantity": null,
+            "backorders": "no",
+            "backorders_allowed": false,
+            "backordered": false,
+            "low_stock_amount": null,
+            "sold_individually": false,
+            "weight": "1.7",
+            "dimensions": {
+                "length": "",
+                "width": "",
+                "height": ""
+            },
+            "shipping_required": true,
+            "shipping_taxable": false,
+            "shipping_class": "",
+            "shipping_class_id": 0,
+            "reviews_allowed": true,
+            "average_rating": "0.00",
+            "rating_count": 0,
+            "upsell_ids": [],
+            "cross_sell_ids": [],
+            "parent_id": 0,
+            "purchase_note": "",
+            "categories": [
+                {
+                    "id": 6557,
+                    "name": "Аксесуари",
+                    "slug": "accessories"
+                }
+            ],
+            "tags": [],
+            "images": [
+                {
+                    "id": 5361,
+                    "date_created": "2022-02-03T03:39:48",
+                    "date_created_gmt": "2022-02-03T03:39:48",
+                    "date_modified": "2022-02-04T13:32:39",
+                    "date_modified_gmt": "2022-02-04T13:32:39",
+                    "src": "/src/img/products/www-akcesoria-elementy-do-komina-redukcja-stalowa-200-180-960-960-1-0-0.png",
+                    "name": "www-akcesoria-elementy-do-komina-redukcja-stalowa-200-180-960-960-1-0-0",
+                    "alt": "Перехід стальний Ø 250/180"
+                }
+            ],
+            "attributes": [],
+            "default_attributes": [],
+            "variations": [],
+            "grouped_products": [],
+            "menu_order": 0,
+            "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi>25,30&nbsp;<span class=\"woocommerce-Price-currencySymbol\">&euro;</span></bdi></span>",
+            "related_ids": [709, 713, 679, 665, 724],
+            "meta_data": [
+                {
+                    "id": 164233,
+                    "key": "_wp_page_template",
+                    "value": "default"
+                },
+                {
+                    "id": 164254,
+                    "key": "_import_translations_id",
+                    "value": "RED/S/250/180"
+                },
+                {
+                    "id": 164255,
+                    "key": "_import_language_name",
+                    "value": "uk"
+                },
+                {
+                    "id": 164256,
+                    "key": "_link_to_vendor",
+                    "value": "https://kratki.ua/perehid-stalnyj-o-250-180"
+                }
+            ],
+            "stock_status": "instock",
+            "has_options": false,
+            "lang": "uk",
+            "translations": {
+                "uk": 10243,
+                "ru": 7483
+            },
+            "pll_sync_post": [],
+            "_links": {
+                "self": [
+                    {
+                        "href": "http://termokamin.local/wp-json/wc/v3/products/10243"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "http://termokamin.local/wp-json/wc/v3/products"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 10244,
+            "name": "Біокамін Kratki DELTA 3 зі склом з сертифікатом TUV",
+            "slug": "kratki-delta3-tuv-przeszklenie-2",
+            "permalink": "http://termokamin.local/p/kratki-delta3-tuv-przeszklenie-2/",
+            "date_created": "2022-02-04T13:32:31",
+            "date_created_gmt": "2022-02-04T13:32:31",
+            "date_modified": "2022-02-04T13:32:39",
+            "date_modified_gmt": "2022-02-04T13:32:39",
+            "type": "simple",
+            "status": "publish",
+            "featured": true,
+            "catalog_visibility": "visible",
+            "description": "<p><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"></p>\n<p>Біокаміни не мають обмежень, не вимагають складного встановлення чи підключення до камінного проводу, прості в монтажі та обслуговуванні, підходять як для просторого будинку, так і для меншої квартири.</p>\n<p>Біокаміни - це також чудове рішення для облаштування інтер'єрів, оскільки різноманіття продукції дозволяє втілити найбільш оригінальні ідеї.</p>\n<p>Опалюються екологічним паливом у вигляді рідини, ефектом чого є справжній вогонь.</p>\n<h3>Натуральне тепло</h3>\n<p>Біокамін підвищує температуру навіть до кількох градусів Цельсія залежно від висоти полум'я і величини приміщення.</p>\n<p>Вироблене тепло на 100% повертається в приміщення, завдяки чому біокамін може бути додатковим джерелом опалення.</p>\n<h3>Комфортне користування</h3>\n<p>Достатньо влити біопаливо до рівня, визначеного в контейнері. Можливо відрегулювати і погасити полум'я в будь-який момент.</p>\n<p>Слід пам'ятати про вентиляцію приміщення, де знаходиться біокамін.</p>\n<h3>Гарантія якості</h3>\n<p>Біокаміни виготовлено з високоякісних матеріалів. Процес виробництва реалізовується згідно зі світовими стандартами, що підтверджує отримання сертифікату ISO 9001:2015.</p>\n<h3>Аж дві можливості монтажу</h3>\n<p>Настінний: можна повісити на стіні, використовуючи монтажні кільця (знаходяться в комплекті).</p>\n<p>Індивідуальна забудова: можна вмонтувати у ніші або на спеціально збудованому для цього декораційному елементі, що виступає з-за стіни.</p>\n<h3>Фокус на безпеці</h3>\n<p>Процес виробництва біокамінів контролюється TUV Rheinland Polska - біокамін має німецький сертифікат безпеки TUV.</p>\n<p>Контейнер з сертифікатом TUV має додаткову спеціальну камеру, що запобігає виливанню палива внаслідок випадкового переповнення резервуару. Має також індикатор максимального рівня палива.</p>\n<p>Абсорбуюча вставка, розміщена в центрі контейнера, зменшує витрату палива і захищає від його розливу внаслідок перехилення пристрою.</p>\n<p></span></span></p>\n",
+            "short_description": "<p>Біокамін з простим і сучасним виглядом, який є оригінальною прикрасою будь-якого інтер’єру. Елегантна форма дозволяє підкреслити декор як вітальні, так і спальні.</p>\n",
+            "sku": "DELTA3/TUV/PRZESZKLENIE",
+            "price": "317",
+            "regular_price": "317",
+            "sale_price": "",
+            "date_on_sale_from": null,
+            "date_on_sale_from_gmt": null,
+            "date_on_sale_to": null,
+            "date_on_sale_to_gmt": null,
+            "on_sale": false,
+            "purchasable": true,
+            "total_sales": 0,
+            "virtual": false,
+            "downloadable": false,
+            "downloads": [],
+            "download_limit": -1,
+            "download_expiry": -1,
+            "external_url": "",
+            "button_text": "",
+            "tax_status": "none",
+            "tax_class": "",
+            "manage_stock": false,
+            "stock_quantity": null,
+            "backorders": "no",
+            "backorders_allowed": false,
+            "backordered": false,
+            "low_stock_amount": null,
+            "sold_individually": false,
+            "weight": "",
+            "dimensions": {
+                "length": "14.20",
+                "width": "120.00",
+                "height": "40.00"
+            },
+            "shipping_required": true,
+            "shipping_taxable": false,
+            "shipping_class": "",
+            "shipping_class_id": 0,
+            "reviews_allowed": true,
+            "average_rating": "0.00",
+            "rating_count": 0,
+            "upsell_ids": [],
+            "cross_sell_ids": [],
+            "parent_id": 0,
+            "purchase_note": "",
+            "categories": [
+                {
+                    "id": 6557,
+                    "name": "Аксесуари",
+                    "slug": "accessories"
+                }
+            ],
+            "tags": [],
+            "images": [
+                {
+                    "id": 7485,
+                    "date_created": "2022-02-03T05:17:26",
+                    "date_created_gmt": "2022-02-03T05:17:26",
+                    "date_modified": "2022-02-04T13:32:39",
+                    "date_modified_gmt": "2022-02-04T13:32:39",
+                    "src": "/src/img/products/1000x1000DELTA3_TUV_PRZESZKLENIEwww_delta_3_1_on_1-min.png",
+                    "name": "1000x1000DELTA3_TUV_PRZESZKLENIEwww_delta_3_1_on_1-min",
+                    "alt": "Біокамін Kratki DELTA 3 зі склом з сертифікатом TUV"
+                },
+                {
+                    "id": 7486,
+                    "date_created": "2022-02-03T05:17:28",
+                    "date_created_gmt": "2022-02-03T05:17:28",
+                    "date_modified": "2022-02-03T05:17:28",
+                    "date_modified_gmt": "2022-02-03T05:17:28",
+                    "src": "/src/img/products/1000x1000DELTA3_TUV_PRZESZKLENIEwww_delta_3_2_on_1-min.png",
+                    "name": "1000x1000DELTA3_TUV_PRZESZKLENIEwww_delta_3_2_on_1-min",
+                    "alt": ""
+                }
+            ],
+            "attributes": [
+                {
+                    "id": 17,
+                    "name": "вид-палива",
+                    "position": 1,
+                    "visible": true,
+                    "variation": true,
+                    "options": ["біопаливо з біологічного алкоголю"]
+                },
+                {
+                    "id": 23,
+                    "name": "розміщення",
+                    "position": 24,
+                    "visible": true,
+                    "variation": true,
+                    "options": ["Вбудоване; Настінне"]
+                },
+                {
+                    "id": 13,
+                    "name": "стиль",
+                    "position": 26,
+                    "visible": true,
+                    "variation": true,
+                    "options": ["Cучасний"]
+                },
+                {
+                    "id": 26,
+                    "name": "колекція",
+                    "position": 30,
+                    "visible": true,
+                    "variation": true,
+                    "options": ["Delta 3"]
+                }
+            ],
+            "default_attributes": [],
+            "variations": [],
+            "grouped_products": [],
+            "menu_order": 0,
+            "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi>317,00&nbsp;<span class=\"woocommerce-Price-currencySymbol\">&euro;</span></bdi></span>",
+            "related_ids": [649, 660, 695, 713, 732],
+            "meta_data": [
+                {
+                    "id": 164259,
+                    "key": "_wp_page_template",
+                    "value": "default"
+                },
+                {
+                    "id": 164283,
+                    "key": "_import_translations_id",
+                    "value": "DELTA3/TUV/PRZESZKLENIE"
+                },
+                {
+                    "id": 164284,
+                    "key": "_import_language_name",
+                    "value": "uk"
+                },
+                {
+                    "id": 164285,
+                    "key": "_link_to_vendor",
+                    "value": "https://kratki.ua/delta-3-zi-sklom-z-sertyfikatom-tuv"
+                }
+            ],
+            "stock_status": "instock",
+            "has_options": false,
+            "lang": "uk",
+            "translations": {
+                "uk": 10244,
+                "ru": 7484
+            },
+            "pll_sync_post": [],
+            "_links": {
+                "self": [
+                    {
+                        "href": "http://termokamin.local/wp-json/wc/v3/products/10244"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "http://termokamin.local/wp-json/wc/v3/products"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 10246,
+            "name": "Підвід повітря ззовні",
+            "slug": "kratki-dolot-krociec-2",
+            "permalink": "http://termokamin.local/p/kratki-dolot-krociec-2/",
+            "date_created": "2022-02-04T13:32:31",
+            "date_created_gmt": "2022-02-04T13:32:31",
+            "date_modified": "2022-02-04T13:32:41",
+            "date_modified_gmt": "2022-02-04T13:32:41",
+            "type": "simple",
+            "status": "publish",
+            "featured": true,
+            "catalog_visibility": "visible",
+            "description": "<p><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"></p>\n<p>Підвід холодного повітря - це спеціальний вихід, що монтується за бажанням клієнта за додаткову оплату у кожну з наших камінних топок, яка має чавунну основу.</p>\n<p>Він повинен довести свіже повітря для згоряння.</p>\n<p>Для правильної роботи кожен камін потребує відповідної кількості повітря. Часто його нестача стає однією із головних проблем поганого функціонування топки. Аби з каміном не виникало проблем, йому потрібно близько. 8-10 м³/год повітря на 1 кг деревини. Якщо немає іншого виходу, він бере повітря з приміщення, у якому знаходиться. А оскільки найчастіше він знаходиться у вітальні, тобто в місці, де ми дуже часто проводимо свій час, то фактично забирає повітря від нас.</p>\n<p></span></span></p>\n",
+            "short_description": "<p>Підвід повітря &#8211; вихід, що монтується на камінній топці, доставляє свіже повітря ззовні у камеру згоряння.</p>\n",
+            "sku": "DOLOT/KROCIEC",
+            "price": "64.5",
+            "regular_price": "64.5",
+            "sale_price": "",
+            "date_on_sale_from": null,
+            "date_on_sale_from_gmt": null,
+            "date_on_sale_to": null,
+            "date_on_sale_to_gmt": null,
+            "on_sale": false,
+            "purchasable": true,
+            "total_sales": 0,
+            "virtual": false,
+            "downloadable": false,
+            "downloads": [],
+            "download_limit": -1,
+            "download_expiry": -1,
+            "external_url": "",
+            "button_text": "",
+            "tax_status": "none",
+            "tax_class": "",
+            "manage_stock": false,
+            "stock_quantity": null,
+            "backorders": "no",
+            "backorders_allowed": false,
+            "backordered": false,
+            "low_stock_amount": null,
+            "sold_individually": false,
+            "weight": "1.0",
+            "dimensions": {
+                "length": "",
+                "width": "",
+                "height": ""
+            },
+            "shipping_required": true,
+            "shipping_taxable": false,
+            "shipping_class": "",
+            "shipping_class_id": 0,
+            "reviews_allowed": true,
+            "average_rating": "3.00",
+            "rating_count": 2,
+            "upsell_ids": [],
+            "cross_sell_ids": [],
+            "parent_id": 0,
+            "purchase_note": "",
+            "categories": [
+                {
+                    "id": 6557,
+                    "name": "Аксесуари",
+                    "slug": "accessories"
+                }
+            ],
+            "tags": [],
+            "images": [
+                {
+                    "id": 7495,
+                    "date_created": "2022-02-03T05:17:51",
+                    "date_created_gmt": "2022-02-03T05:17:51",
+                    "date_modified": "2022-02-04T13:32:41",
+                    "date_modified_gmt": "2022-02-04T13:32:41",
+                    "src": "/src/img/products/www-akcesoria-elementy-dolotu-dolot-krociec-960-960-1-0-0.png",
+                    "name": "www-akcesoria-elementy-dolotu-dolot-krociec-960-960-1-0-0",
+                    "alt": "Підвід повітря ззовні"
+                },
+                {
+                    "id": 7496,
+                    "date_created": "2022-02-03T05:17:53",
+                    "date_created_gmt": "2022-02-03T05:17:53",
+                    "date_modified": "2022-02-03T05:17:53",
+                    "date_modified_gmt": "2022-02-03T05:17:53",
+                    "src": "/src/img/products/www-akcesoria-elementy-dolotu-dolot-960-960-1-0-0.png",
+                    "name": "www-akcesoria-elementy-dolotu-dolot-960-960-1-0-0",
+                    "alt": ""
+                }
+            ],
+            "attributes": [],
+            "default_attributes": [],
+            "variations": [],
+            "grouped_products": [],
+            "menu_order": 0,
+            "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi>64,50&nbsp;<span class=\"woocommerce-Price-currencySymbol\">&euro;</span></bdi></span>",
+            "related_ids": [689, 697, 726, 711, 679],
+            "meta_data": [
+                {
+                    "id": 164318,
+                    "key": "_wp_page_template",
+                    "value": "default"
+                },
+                {
+                    "id": 164339,
+                    "key": "_import_translations_id",
+                    "value": "DOLOT/KROCIEC"
+                },
+                {
+                    "id": 164340,
+                    "key": "_import_language_name",
+                    "value": "uk"
+                },
+                {
+                    "id": 164341,
+                    "key": "_link_to_vendor",
+                    "value": "https://kratki.ua/"
+                }
+            ],
+            "stock_status": "instock",
+            "has_options": false,
+            "lang": "uk",
+            "translations": {
+                "ru": 7494,
+                "uk": 10246
+            },
+            "pll_sync_post": [],
+            "_links": {
+                "self": [
+                    {
+                        "href": "http://termokamin.local/wp-json/wc/v3/products/10246"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "http://termokamin.local/wp-json/wc/v3/products"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 10249,
+            "name": "Перехідник сталева труба - керамічний димохід Ø 150/160",
+            "slug": "kratki-prz150-160-2",
+            "permalink": "http://termokamin.local/p/kratki-prz150-160-2/",
+            "date_created": "2022-02-04T13:32:31",
+            "date_created_gmt": "2022-02-04T13:32:31",
+            "date_modified": "2022-02-04T13:32:43",
+            "date_modified_gmt": "2022-02-04T13:32:43",
+            "type": "simple",
+            "status": "publish",
+            "featured": true,
+            "catalog_visibility": "visible",
+            "description": "<p><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"></p>\n<p>Перехід з редукцією від трубопроводу до керамічного димоходу забезпечує надійне з'єднання сталевої димової труби з керамічним димоходом.</p>\n<h3>Характеристика:</h3>\n<p>- діаметр перехідника в трубу - 150 мм</p>\n<p>- діаметр входу в керамічний димохід - 160 мм</p>\n<p>- матеріал: чорна сталь</p>\n<p>- товщина сталі: 2 мм.</p>\n<p></span></span></p>\n",
+            "short_description": "<p>Перехідник сталева труба &#8211; керамічний димохід ø 150/160.</p>\n",
+            "sku": "PRZ150/160",
+            "price": "36.96",
+            "regular_price": "36.96",
+            "sale_price": "",
+            "date_on_sale_from": null,
+            "date_on_sale_from_gmt": null,
+            "date_on_sale_to": null,
+            "date_on_sale_to_gmt": null,
+            "on_sale": false,
+            "purchasable": true,
+            "total_sales": 0,
+            "virtual": false,
+            "downloadable": false,
+            "downloads": [],
+            "download_limit": -1,
+            "download_expiry": -1,
+            "external_url": "",
+            "button_text": "",
+            "tax_status": "none",
+            "tax_class": "",
+            "manage_stock": false,
+            "stock_quantity": null,
+            "backorders": "no",
+            "backorders_allowed": false,
+            "backordered": false,
+            "low_stock_amount": null,
+            "sold_individually": false,
+            "weight": "1.0",
+            "dimensions": {
+                "length": "",
+                "width": "",
+                "height": ""
+            },
+            "shipping_required": true,
+            "shipping_taxable": false,
+            "shipping_class": "",
+            "shipping_class_id": 0,
+            "reviews_allowed": true,
+            "average_rating": "0.00",
+            "rating_count": 0,
+            "upsell_ids": [],
+            "cross_sell_ids": [],
+            "parent_id": 0,
+            "purchase_note": "",
+            "categories": [
+                {
+                    "id": 6557,
+                    "name": "Аксесуари",
+                    "slug": "accessories"
+                }
+            ],
+            "tags": [],
+            "images": [
+                {
+                    "id": 5566,
+                    "date_created": "2022-02-03T03:48:26",
+                    "date_created_gmt": "2022-02-03T03:48:26",
+                    "date_modified": "2022-02-04T13:32:45",
+                    "date_modified_gmt": "2022-02-04T13:32:45",
+                    "src": "/src/img/products/www-akcesoria-przejscie-rura-komin-prz-180-200-960-960-1-0-0.png",
+                    "name": "www-akcesoria-przejscie-rura-komin-prz-180-200-960-960-1-0-0",
+                    "alt": "Перехідник сталева труба - керамічний димохід Ø 130/160"
+                }
+            ],
+            "attributes": [],
+            "default_attributes": [],
+            "variations": [],
+            "grouped_products": [],
+            "menu_order": 0,
+            "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi>36,96&nbsp;<span class=\"woocommerce-Price-currencySymbol\">&euro;</span></bdi></span>",
+            "related_ids": [709, 663, 655, 695, 652],
+            "meta_data": [
+                {
+                    "id": 164404,
+                    "key": "_wp_page_template",
+                    "value": "default"
+                },
+                {
+                    "id": 164425,
+                    "key": "_import_translations_id",
+                    "value": "PRZ150/160"
+                },
+                {
+                    "id": 164426,
+                    "key": "_import_language_name",
+                    "value": "uk"
+                },
+                {
+                    "id": 164427,
+                    "key": "_link_to_vendor",
+                    "value": "https://kratki.ua/"
+                }
+            ],
+            "stock_status": "instock",
+            "has_options": false,
+            "lang": "uk",
+            "translations": {
+                "uk": 10249,
+                "ru": 7499
+            },
+            "pll_sync_post": [],
+            "_links": {
+                "self": [
+                    {
+                        "href": "http://termokamin.local/wp-json/wc/v3/products/10249"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "http://termokamin.local/wp-json/wc/v3/products"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 10229,
+            "name": "Трійник стальний 160/90",
+            "slug": "kratki-tr160-90-2",
+            "permalink": "http://termokamin.local/p/kratki-tr160-90-2/",
+            "date_created": "2022-02-04T13:32:31",
+            "date_created_gmt": "2022-02-04T13:32:31",
+            "date_modified": "2022-02-04T13:32:32",
+            "date_modified_gmt": "2022-02-04T13:32:32",
+            "type": "simple",
+            "status": "publish",
+            "featured": true,
+            "catalog_visibility": "visible",
+            "description": "<p><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"></p>\n<p>Трійник стальний для підключення камінних топок&nbsp;та печей на дровах до існуючих димових каналів.</p>\n<p>Відповідає всім польським та європейським нормам, забезпечує безпеку та максимальну ефективність і комфорт.</p>\n<p>З'єднання труб полягає у всуванні одного елемента в інший.</p>\n<h3>Характеристика:</h3>\n<p>- товщина сталі: 2 мм</p>\n<p>- діаметр: 160 мм</p>\n<p>- кут: 90°</p>\n<p>- температуростійкість: 1000°C</p>\n<p>- матеріал: сталевий метал</p>\n<p>- покриті чорною жаростійкою фарбою</p>\n<p>- зварювані плазмово.</p>\n<p></span></span></p>\n",
+            "short_description": "<p>Трійник стальний&amp;nbsp;до кута 90°, діаметр: 160 мм для підключення камінних топок та печей на дровах до існуючих димових каналів.</p>\n",
+            "sku": "TR160/90",
+            "price": "37.4",
+            "regular_price": "37.4",
+            "sale_price": "",
+            "date_on_sale_from": null,
+            "date_on_sale_from_gmt": null,
+            "date_on_sale_to": null,
+            "date_on_sale_to_gmt": null,
+            "on_sale": false,
+            "purchasable": true,
+            "total_sales": 0,
+            "virtual": false,
+            "downloadable": false,
+            "downloads": [],
+            "download_limit": -1,
+            "download_expiry": -1,
+            "external_url": "",
+            "button_text": "",
+            "tax_status": "none",
+            "tax_class": "",
+            "manage_stock": false,
+            "stock_quantity": null,
+            "backorders": "no",
+            "backorders_allowed": false,
+            "backordered": false,
+            "low_stock_amount": null,
+            "sold_individually": false,
+            "weight": "3.5",
+            "dimensions": {
+                "length": "",
+                "width": "",
+                "height": ""
+            },
+            "shipping_required": true,
+            "shipping_taxable": false,
+            "shipping_class": "",
+            "shipping_class_id": 0,
+            "reviews_allowed": true,
+            "average_rating": "0.00",
+            "rating_count": 0,
+            "upsell_ids": [],
+            "cross_sell_ids": [],
+            "parent_id": 0,
+            "purchase_note": "",
+            "categories": [
+                {
+                    "id": 6557,
+                    "name": "Аксесуари",
+                    "slug": "accessories"
+                }
+            ],
+            "tags": [],
+            "images": [
+                {
+                    "id": 7453,
+                    "date_created": "2022-02-03T05:16:33",
+                    "date_created_gmt": "2022-02-03T05:16:33",
+                    "date_modified": "2022-02-04T13:32:33",
+                    "date_modified_gmt": "2022-02-04T13:32:33",
+                    "src": "/src/img/products/truba90.png",
+                    "name": "truba90",
+                    "alt": "Трійник стальний 200/90"
+                }
+            ],
+            "attributes": [],
+            "default_attributes": [],
+            "variations": [],
+            "grouped_products": [],
+            "menu_order": 0,
+            "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi>37,40&nbsp;<span class=\"woocommerce-Price-currencySymbol\">&euro;</span></bdi></span>",
+            "related_ids": [732, 713, 719, 649, 665],
+            "meta_data": [
+                {
+                    "id": 163865,
+                    "key": "_wp_page_template",
+                    "value": "default"
+                },
+                {
+                    "id": 163886,
+                    "key": "_import_translations_id",
+                    "value": "TR160/90"
+                },
+                {
+                    "id": 163887,
+                    "key": "_import_language_name",
+                    "value": "uk"
+                },
+                {
+                    "id": 163888,
+                    "key": "_link_to_vendor",
+                    "value": "https://kratki.ua/trijnyk-stalnyj-160-90"
+                }
+            ],
+            "stock_status": "instock",
+            "has_options": false,
+            "lang": "uk",
+            "translations": {
+                "ru": 7456,
+                "uk": 10229
+            },
+            "pll_sync_post": [],
+            "_links": {
+                "self": [
+                    {
+                        "href": "http://termokamin.local/wp-json/wc/v3/products/10229"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "http://termokamin.local/wp-json/wc/v3/products"
+                    }
+                ]
+            }
+        }
+    ]
+}

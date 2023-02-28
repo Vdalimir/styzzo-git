@@ -1,0 +1,190 @@
+{{> header }}
+<section class="section bg-[url(./src/img/bg-index.png)] bg-no-repeat bg-top bg-contain sm:bg-cover">
+	<div class="sm:container lg:max-w-screen-lg px-5 pt-48">
+		<h2 data-aos="fade-down" data-aos-delay="200" data-aos-duration="1000"
+			class="bg-white w-max px-1 text-core-black text-2xl font-bold">Кратко о нас:</h2>
+		<h1 data-aos="fade-down" data-aos-delay="200" data-aos-duration="1000" class="mt-6 font-black text-2xl xs:text-3xl sm:text-5xl md:text-6xl">
+			Как мы работаем</h1>
+		<p data-aos="fade-down" data-aos-delay="300" data-aos-duration="1000" class="mt-7 text-neutral-500">
+			Создаем бренды, фирменный стиль. Занимаемся разработкой веб приложений, а так же приложений для
+			мобильных платформ, продвигаем ИИ поддерживаем ваш бизнес во всех плоскостях цифрового
+			пространства</p>
+
+		<div class="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16">
+			<div data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000"
+				 class="relative border border-neutral-600 px-4 py-10">
+				<div
+						class="absolute py-2 left-2.5 top-0 bottom-0 flex flex-col justify-between font-roboto text-sm font-bold opacity-20">
+					<span>01</span>
+					<span>01</span>
+				</div>
+				<div
+						class="absolute py-2 right-2.5 top-0 bottom-0 flex flex-col justify-between font-roboto text-sm font-bold opacity-20">
+					<span>01</span>
+					<span>01</span>
+				</div>
+				<div class="relative h-36 letters flex items-center gap-1 font-black font-proxima-cond">
+					{{#each data.svgImageItems as |svgItem|}}
+						{{#ifEquals @index 0}}
+							{{#with svgItem}}
+								<svg viewBox="0 0 16 13" xmlns="http://www.w3.org/2000/svg"
+									 class="block absolute left-0 h-36 w-48 -top-3 stroke-[#ffffff10] fill-[#ffffff10]">
+									<text x="0" y="12" font-size="16" stroke-width=".1">01</text>
+								</svg>
+							{{/with}}
+						{{else}}
+							{{#with svgItem}}
+								<svg viewBox="0 0 16 13" xmlns="http://www.w3.org/2000/svg"
+									 class="block absolute left-{{left}} h-36 w-48 -top-3 stroke-[#ffffff10] fill-none">
+									<text x="0" y="12" font-size="16" stroke-width=".1">01</text>
+								</svg>
+							{{/with}}
+						{{/ifEquals}}
+					{{/each}}
+				</div>
+				<p class="text-sm mt-4">Работа с нами - это четкое соблюдение сроков и бюджета на всех стадиях
+					проекта</p>
+			</div>
+			<div data-aos="fade-left" data-aos-delay="700" data-aos-duration="1000"
+				 class="relative border border-neutral-600 px-4 py-10">
+				<div
+						class="absolute py-2 left-2.5 top-0 bottom-0 flex flex-col justify-between font-roboto text-sm font-bold opacity-20">
+					<span>02</span>
+					<span>02</span>
+				</div>
+				<div
+						class="absolute py-2 right-2.5 top-0 bottom-0 flex flex-col justify-between font-roboto text-sm font-bold opacity-20">
+					<span>02</span>
+					<span>02</span>
+				</div>
+				<div class="relative h-36 letters flex items-center gap-1 font-black font-proxima-cond">
+					{{#each data.svgImageItems as |svgItem|}}
+					{{#ifEquals @index 0}}
+					{{#with svgItem}}
+					<svg viewBox="0 0 16 13" xmlns="http://www.w3.org/2000/svg"
+						 class="block absolute left-0 h-36 w-48 -top-3 stroke-[#ffffff10] fill-[#ffffff10]">
+						<text x="0" y="12" font-size="16" stroke-width=".1">02</text>
+					</svg>
+					{{/with}}
+					{{else}}
+					{{#with svgItem}}
+					<svg viewBox="0 0 16 13" xmlns="http://www.w3.org/2000/svg"
+						 class="block absolute left-{{left}} h-36 w-48 -top-3 stroke-[#ffffff10] fill-none">
+						<text x="0" y="12" font-size="16" stroke-width=".1">02</text>
+					</svg>
+					{{/with}}
+					{{/ifEquals}}
+					{{/each}}
+				</div>
+				<p class="text-sm mt-4">Мы всегда находим индивидуальный подход к каждому клиенту</p>
+			</div>
+			<div data-aos="fade-left" data-aos-delay="900" data-aos-duration="1000"
+				 class="relative border border-neutral-600 px-4 py-10">
+				<div
+						class="absolute py-2 left-2.5 top-0 bottom-0 flex flex-col justify-between font-roboto text-sm font-bold opacity-20">
+					<span>03</span>
+					<span>03</span>
+				</div>
+				<div
+						class="absolute py-2 right-2.5 top-0 bottom-0 flex flex-col justify-between font-roboto text-sm font-bold opacity-20">
+					<span>03</span>
+					<span>03</span>
+				</div>
+				<div class="relative h-36 letters flex items-center gap-1 font-black font-proxima-cond">
+					{{#each data.svgImageItems as |svgItem|}}
+					{{#ifEquals @index 0}}
+					{{#with svgItem}}
+					<svg viewBox="0 0 16 13" xmlns="http://www.w3.org/2000/svg"
+						 class="block absolute left-0 h-36 w-48 -top-3 stroke-[#ffffff10] fill-[#ffffff10]">
+						<text x="0" y="12" font-size="16" stroke-width=".1">03</text>
+					</svg>
+					{{/with}}
+					{{else}}
+					{{#with svgItem}}
+					<svg viewBox="0 0 16 13" xmlns="http://www.w3.org/2000/svg"
+						 class="block absolute left-{{left}} h-36 w-48 -top-3 stroke-[#ffffff10] fill-none">
+						<text x="0" y="12" font-size="16" stroke-width=".1">03</text>
+					</svg>
+					{{/with}}
+					{{/ifEquals}}
+					{{/each}}
+				</div>
+				<p class="text-sm mt-4">Наша цель - предоставление полного спектра наших услуг</p>
+			</div>
+		</div>
+
+		<div data-aos="fade-up" data-aos-delay="1000"
+			 class="mt-16 prose prose-lg text-white prose-headings:text-white max-w-full">
+			<h2>Формирование цели</h2>
+			<p>Первый этап в работе нашей студии веб-разработки над проектом: понять, какова его главная цель —
+				получение прибыли, увеличение охвата или улучшение репутации бренда. Только так можно подобрать
+				средства для ее реализации и разработать план действий.</p>
+			<h2>Подготовка решения</h2>
+			<p>Когда есть понимание цели, УТП и аудитории проекта, дело за малым — подобрать верное решение. Для
+				продажи товаров — интернет-магазин, для презентации услуги веб-студии, ресторана, профильного
+				заведения — landing page, для раскрутки бренда — презентационный сайт. Схема вариативна, ведь
+				каждый проект уникален. Когда есть понимание цели, УТП и аудитории проекта, дело за малым —
+				подобрать верное решение. Для продажи товаров — интернет-магазин, для презентации услуги
+				веб-студии, ресторана, профильного заведения — landing page, для раскрутки бренда —
+				презентационный сайт. Схема вариативна, ведь каждый проект уникален.
+
+				Когда есть понимание цели, УТП и аудитории проекта, дело за малым — подобрать верное решение.
+				Для продажи товаров — интернет-магазин, для презентации услуги веб-студии, ресторана,
+				профильного заведения — landing page, для раскрутки бренда — презентационный сайт. Схема
+				вариативна, ведь каждый проект уникален.</p>
+			<h2>Анализ бизнеса и целевой аудитории</h2>
+			<p>Когда есть понимание цели, УТП и аудитории проекта, дело за малым — подобрать верное решение. Для
+				продажи товаров — интернет-магазин, для презентации услуги веб-студии, ресторана, профильного
+				заведения — landing page, для раскрутки бренда — презентационный сайт. Схема вариативна, ведь
+				каждый проект уникален. Когда есть понимание цели, УТП и аудитории проекта, дело за малым —
+				подобрать верное решение. Для продажи товаров — интернет-магазин, для презентации услуги
+				веб-студии, ресторана, профильного заведения — landing page, для раскрутки бренда —
+				презентационный сайт. Схема вариативна, ведь каждый проект уникален.
+
+				Когда есть понимание цели, УТП и аудитории проекта, дело за малым — подобрать верное решение.
+				Для продажи товаров — интернет-магазин, для презентации услуги веб-студии, ресторана,
+				профильного заведения — landing page, для раскрутки бренда — презентационный сайт. Схема
+				вариативна, ведь каждый проект уникален.</p>
+		</div>
+	</div>
+	<ul class="-mx-3 grid grid-cols-1 md:grid-cols-2 gap-x-10 py-10">
+		<li class="w-full flex md:justify-end border border-neutral-500">
+			<a href="/services.html"
+			   class="w-full md:w-auto relative group pr-8 pl-20 py-16 flex items-center justify-between text-4xl font-bold">
+				<div class="absolute top-1/2 left-0 -translate-y-1/2">
+					<div class="relative h-32">
+						{{#each data.svgImages as |image|}}
+						{{#with image}}
+						<svg viewBox="0 0 100 18" xmlns="http://www.w3.org/2000/svg" class="font-black block absolute left-{{left}} bottom-{{@index}} h-32 w-auto stroke-[#ffffff10] fill-none">
+							<text x="1" y="14" font-size="17" stroke-width=".1">Услуги</text>
+						</svg>
+						{{/with}}
+						{{/each}}
+					</div>
+				</div>
+				<span>Услуги</span>
+				<span class="font-icon icon-arrow_forward ml-3 md:ml-10 lg:ml-44 xl:ml-60 text-4xl md:text-6xl -translate-x-4 group-hover:translate-x-0 transition-all"></span>
+			</a>
+		</li>
+		<li class="w-full flex border border-neutral-500">
+			<a href="/projects.html"
+			   class="w-full md:w-auto relative group pr-8 pl-20 py-16 flex items-center justify-between text-4xl font-bold">
+				<div class="absolute top-1/2 left-0 -translate-y-1/2">
+					<div class="relative h-32">
+						{{#each data.svgImages as |image|}}
+						{{#with image}}
+						<svg viewBox="0 0 100 18" xmlns="http://www.w3.org/2000/svg" class="font-black block absolute left-{{left}} bottom-{{@index}} h-32 w-auto stroke-[#ffffff10] fill-none">
+							<text x="1" y="14" font-size="17" stroke-width=".1">Проекты</text>
+						</svg>
+						{{/with }}
+						{{/each}}
+					</div>
+				</div>
+				<span>Проекты</span>
+				<span class="font-icon icon-arrow_forward ml-3 md:ml-10 lg:ml-44 xl:ml-60 text-4xl md:text-6xl -translate-x-4 group-hover:translate-x-0 transition-all"></span>
+			</a>
+		</li>
+	</ul>
+</section>
+{{>footer-block}}
+{{>footer}}

@@ -1,0 +1,178 @@
+@layer base {
+	button {
+		@apply w-max focus-visible:outline-none;
+	}
+}
+@layer components {
+	.btn-common {
+		@apply relative inline-flex w-full select-none items-center justify-center gap-2 overflow-hidden whitespace-nowrap rounded py-2.5 px-5 text-base font-semibold leading-6
+      	sm:w-max;
+		&:hover,
+		&:focus {
+			> span {
+				@apply relative animate-scroll italic;
+				&:after {
+					@apply absolute -right-[calc(100%+0.5rem)] content-[attr(data-content)];
+				}
+				&:before {
+					@apply absolute -right-[calc(200%+1rem)] content-[attr(data-content)];
+				}
+			}
+		}
+		&:disabled {
+			@apply pointer-events-none;
+		}
+		&.loading {
+			@apply pointer-events-none;
+			* {
+				@apply !text-transparent;
+			}
+			&:before {
+				@apply absolute left-1/2 -ml-[10px] inline-block animate-spin font-icon text-xl font-normal content-['\e923'];
+			}
+		}
+		svg {
+			@apply fill-current;
+		}
+	}
+
+	.btn-state {
+		@apply border-red-core bg-red-core text-text-white shadow-theme-red
+		hover:border-red-hover hover:bg-red-hover hover:shadow-theme-red-hover
+		focus:outline-2 focus:outline-offset-[-2px] focus:outline-[#6E1B1B]
+		active:border-red-active active:bg-red-active
+		disabled:border-text-disable disabled:bg-text-disable disabled:shadow-theme-grey;
+	}
+
+	.btn-secondary-state {
+		@apply bg-text-white text-text-black shadow-theme-grey
+		hover:shadow-theme-grey-hover
+		focus:bg-[#F2F3F8] focus:outline-2 focus:outline-offset-[-2px] focus:outline-text-disable
+		active:bg-[#fff2f7]
+		disabled:bg-white disabled:text-text-disable;
+	}
+
+	.btn-shadow-state {
+		@apply text-text-black shadow-theme-grey
+		border-2 border-red-core
+		hover:shadow-theme-grey-hover hover:border-red-hover
+		focus:border-text-black
+		active:border-red-active
+		disabled:text-text-disable disabled:border-text-disable;
+	}
+
+	.btn {
+		@apply btn-common btn-state;
+	}
+	.btn-lg {
+		@apply btn button-lg;
+	}
+	.btn-sm {
+		@apply btn button-sm;
+	}
+
+	.btn-secondary {
+		@apply btn-common btn-secondary-state;
+	}
+	.btn-secondary-lg {
+		@apply btn-secondary button-lg;
+	}
+	.btn-secondary-sm {
+		@apply btn-secondary button-sm;
+	}
+
+	.btn-shadow {
+		@apply btn-common btn-shadow-state py-2;
+	}
+	.btn-shadow-lg {
+		@apply btn-shadow button-lg;
+	}
+	.btn-shadow-sm {
+		@apply btn-shadow button-sm py-0.5;
+	}
+
+	.btn-tertiary {
+		@apply relative select-none rounded text-base text-text-black underline hover:italic active:no-underline disabled:pointer-events-none disabled:text-text-disable;
+		&.loading {
+			@apply pointer-events-none no-underline;
+			* {
+				@apply !text-transparent;
+			}
+			&:before {
+				@apply absolute left-1/2 -ml-[10px] inline-block animate-spin font-icon text-xl font-normal content-['\e923'];
+			}
+		}
+	}
+
+	.btn-square {
+		@apply btn-state flex aspect-square h-10 w-10 select-none items-center justify-center rounded p-0 text-lg;
+	}
+
+	.btn-square-lg {
+		@apply btn-square h-12 w-12 text-2xl;
+	}
+
+	.btn-square-sm {
+		@apply btn-square h-8 w-8 text-sm;
+	}
+
+	.btn-circle {
+		@apply btn-square rounded-full;
+	}
+	.btn-circle-lg {
+		@apply btn-circle h-12 w-12 text-2xl;
+	}
+	.btn-circle-sm {
+		@apply btn-circle h-8 w-8 text-sm;
+	}
+
+	.button-lg {
+		@apply px-9;
+		/* after:text-xl */
+	}
+	.button-sm {
+		@apply w-auto px-4 py-1;
+		/* after:text-sm */
+	}
+
+	/* Стрелки в Слайдере */
+	.slider-arrow {
+		@apply flex h-6 w-6 items-center justify-center font-icon text-2xl text-[#222222] hover:text-red-core active:text-red disabled:pointer-events-none disabled:opacity-50;
+	}
+	.slider-arrow_prev {
+		@apply rotate-180;
+	}
+
+	/* Посилання типу 'Всі статті і т.п.' */
+	.link-arrow {
+		@apply flex items-center justify-end gap-2.5 sm:gap-4 lg:absolute lg:right-[47px] lg:top-[100px];
+		svg {
+			@apply h-5 w-5 sm:h-7 sm:w-7;
+		}
+		&:hover {
+			svg {
+				@apply lg:translate-x-4;
+			}
+		}
+	}
+}
+
+/* Gutenberg btns */
+.is-style-btn .wp-block-button__link {
+	@apply btn;
+}
+.is-style-btn-lg .wp-block-button__link {
+	@apply btn button-lg;
+}
+.is-style-btn-sm .wp-block-button__link {
+	@apply btn button-sm;
+}
+.is-style-primary .wp-block-button__link {
+	@apply btn-secondary;
+}
+.is-style-primary-lg .wp-block-button__link {
+	@apply btn-secondary button-lg;
+}
+.is-style-primary-sm .wp-block-button__link {
+	@apply btn-secondary button-sm;
+}

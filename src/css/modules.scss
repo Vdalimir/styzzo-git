@@ -1,0 +1,56 @@
+@import '../../node_modules/swiper/swiper-bundle.min.css';
+@import "../../node_modules/nouislider/dist/nouislider.min.css";
+// @import '../../node_modules/tom-select/src/scss/tom-select.scss';
+
+.micromodal-slide {
+	@apply hidden
+}
+.micromodal-slide.is-open {
+	@apply flex
+}
+.swiper-slide {
+	width: auto;
+}
+.swiper-button-disabled {
+	@apply opacity-50 cursor-not-allowed
+}
+
+.noUi-target {
+	@apply h-[2px] pt-[4px] pb-1.5 bg-transparent;
+	box-shadow: none;
+	border: none;
+}
+.noUi-base {
+	@apply h-[2px] bg-[#E6E6E6]
+}
+.noUi-connect {
+	background: #464646;
+}
+
+.noUi-horizontal .noUi-handle {
+	width: 34px;
+	height: 34px;
+	right: -17px;
+	top: -16px;
+}
+.noUi-connects {
+	border-radius: 0;
+}
+
+.noUi-handle {
+	border: none;
+	border-radius: 0;
+	cursor: default;
+	background: transparent;
+	box-shadow: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.noUi-touch-area {
+	@apply bg-red-core h-2.5 w-2.5 rounded-full cursor-pointer;
+}
+.noUi-handle:before,
+.noUi-handle:after {
+	content: none;
+}

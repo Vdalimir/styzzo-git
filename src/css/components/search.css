@@ -1,0 +1,14 @@
+.search {
+	&-form {
+		@apply flex w-full flex-1 items-center gap-2 rounded border border-[#F2F2F2] py-[5px] px-4 text-[#8D8D8D] sm:py-[11px];
+		input {
+			@apply w-full border-0 p-0 text-[15px] leading-[18px] text-text-black placeholder:text-current focus:ring-0 focus:placeholder:text-transparent;
+		}
+		svg {
+			@apply h-6 w-6 fill-current;
+		}
+	}
+	&-submit {
+		@apply h-4 w-4;
+	}
+}

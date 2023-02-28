@@ -1,0 +1,24 @@
+{
+    "projects": [
+        {
+            "name": "Defro SA в англійському стилі",
+            "desc": "Установка Defro SA LA ma Gilyotina під портал англійського типу",
+            "img": "/src/img/projects/1.jpg"
+        },
+        {
+            "name": "Kratki Antek в французькому стилі",
+            "desc": "Установка Defro SA LA ma Gilyotina під портал англійського типу",
+            "img": "/src/img/projects/2.jpg"
+        },
+        {
+            "name": "Дабилью шостий у Вашингтоні",
+            "desc": "Установка Defro SA LA ma Gilyotina під портал англійського типу",
+            "img": "/src/img/projects/3.jpg"
+        },
+        {
+            "name": "Коза К7 вільностояча",
+            "desc": "Установка Defro SA LA ma Gilyotina під портал англійського типу",
+            "img": "/src/img/projects/2.jpg"
+        }
+    ]
+}

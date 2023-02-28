@@ -1,0 +1,9 @@
+.aioseo-breadcrumbs {
+	@apply text-[13px] leading-5 sm:text-[14px] sm:leading-[17px];
+}
+.aioseo-breadcrumb {
+	@apply text-text-disable;
+	a {
+		@apply text-black hover:text-red-core active:text-red;
+	}
+}

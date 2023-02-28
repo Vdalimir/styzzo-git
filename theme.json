@@ -1,0 +1,94 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "slug": "red",
+                    "color": "#E93372",
+                    "name": "Red"
+                },
+                {
+                    "slug": "red-core",
+                    "color": "#E3004F",
+                    "name": "Red Core"
+                },
+                {
+                    "slug": "red-active",
+                    "color": "#A30039",
+                    "name": "Red Hover"
+                },
+                {
+                    "slug": "red-hover",
+                    "color": "#CA0348",
+                    "name": "Red Active"
+                },
+                {
+                    "slug": "red-boy",
+                    "color": "#F584AB",
+                    "name": "Red Boy"
+                },
+                {
+                    "slug": "red-girl",
+                    "color": "#FBC7D9",
+                    "name": "Red Girl"
+                },
+                {
+                    "slug": "green",
+                    "color": "#CBECD9",
+                    "name": "Green"
+                },
+                {
+                    "slug": "green-success",
+                    "color": "#27AE60",
+                    "name": "Green Success"
+                },
+                {
+                    "slug": "grey-bg",
+                    "color": "#F2F3F8",
+                    "name": "Grey Background"
+                },
+                {
+                    "slug": "grey-dark",
+                    "color": "#454545",
+                    "name": "Dark Grey"
+                },
+                {
+                    "slug": "grey-light",
+                    "color": "#DEDEDE",
+                    "name": "Light Grey"
+                },
+                {
+                    "slug": "text-white",
+                    "color": "#FBFBFB",
+                    "name": "Text White"
+                },
+                {
+                    "slug": "text-black",
+                    "color": "#272727",
+                    "name": "Text Black"
+                },
+                {
+                    "slug": "text-grey",
+                    "color": "#838383",
+                    "name": "Text Grey"
+                },
+                {
+                    "slug": "text-enable",
+                    "color": "#4F4F4F",
+                    "name": "Text Grey"
+                },
+                {
+                    "slug": "text-disable",
+                    "color": "#BDBDBD",
+                    "name": "Text Disable"
+                }
+            ]
+        },
+        "layout": {
+            "contentSize": "40rem",
+            "wideSize": "60rem"
+        }
+    }
+}
