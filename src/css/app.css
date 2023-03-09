@@ -1,7 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @layer components {
     .btn-primary {
         @apply relative py-2.5 px-5 before:bg-white dark:before:bg-black before:content-[''] before:absolute before:inset-0 hover:before:animate-[show-line_1s_infinite];
