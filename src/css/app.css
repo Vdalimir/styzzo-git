@@ -4,7 +4,7 @@
 @tailwind utilities;
 @layer components {
     .btn-primary {
-        @apply relative py-2.5 px-5 before:bg-white dark:before:bg-black before:content-[''] before:absolute before:inset-0 hover:before:animate-[pulse_1s_infinite];
+        @apply relative py-2.5 px-5 before:bg-white dark:before:bg-black before:content-[''] before:absolute before:inset-0 hover:before:animate-[show-line_1s_infinite];
     }
     .btn-primary:before {
         clip-path: polygon(0 0,calc(100% - 10.00px) 0,100% 10.00px,100% 100%,10.00px 100%,0 calc(100% - 10.00px),0 0,2px  2px ,2px calc(100% - 10.00px - 0.83px),calc(10.00px + 0.83px) calc(100% - 2px),calc(100% - 2px) calc(100% - 2px),calc(100% - 2px) calc(10.00px + 0.83px),calc(100% - 10.00px - 0.83px) 2px,2px 2px);
@@ -193,31 +193,31 @@ html {
     opacity: 0
 }
 .grid-lines span:nth-child(1) {
-    -webkit-animation: pulse 1s 1s forwards;
-    animation: pulse 1s 1s forwards
+    -webkit-animation: show-line 1s 1s forwards;
+    animation: show-line 1s 1s forwards
 }
 
 .grid-lines span:nth-child(2) {
-    -webkit-animation: pulse 1s 1.5s forwards;
-    animation: pulse 1s 1.5s forwards
+    -webkit-animation: show-line 1s 1.5s forwards;
+    animation: show-line 1s 1.5s forwards
 }
 
 .grid-lines span:nth-child(3) {
-    -webkit-animation: pulse 1s 1.8s forwards;
-    animation: pulse 1s 1.8s forwards
+    -webkit-animation: show-line 1s 1.8s forwards;
+    animation: show-line 1s 1.8s forwards
 }
 
 .grid-lines span:nth-child(4) {
-    -webkit-animation: pulse 1s 2.1s forwards;
-    animation: pulse 1s 2.1s forwards
+    -webkit-animation: show-line 1s 2.1s forwards;
+    animation: show-line 1s 2.1s forwards
 }
 
 .grid-lines span:nth-child(5) {
-    -webkit-animation: pulse 1s 2.4s forwards;
-    animation: pulse 1s 2.4s forwards
+    -webkit-animation: show-line 1s 2.4s forwards;
+    animation: show-line 1s 2.4s forwards
 }
 
-@keyframes pulse {
+@keyframes show-line {
     0%, 12% {
         visibility: hidden;
         opacity: 0
