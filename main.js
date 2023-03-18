@@ -48,11 +48,11 @@ function initializeFullPage() {
                 navLogoImg.src = logoWhite
             }
 
-            if (destination.item.classList.contains('footer')){
+           /* if (destination.item.classList.contains('footer')){
                 nav.classList.add('backdrop-blur-2xl')
             }else {
                 nav.classList.remove('backdrop-blur-2xl')
-            }
+            }*/
         },
         afterLoad: function(origin, destination, direction, trigger){
             AOS.refresh()
